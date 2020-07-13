@@ -1,0 +1,107 @@
+{
+  "id": "1869979",
+  "name": "crimsonsea",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076194",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e86f",
+      "unicode_decimal": 59503
+    },
+    {
+      "icon_id": "741910",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "2325938",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "4950939",
+      "name": "感叹",
+      "font_class": "gantan",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "6147886",
+      "name": "错误",
+      "font_class": "cuowu",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "7501166",
+      "name": "正确",
+      "font_class": "zhengque",
+      "unicode": "e78e",
+      "unicode_decimal": 59278
+    },
+    {
+      "icon_id": "5342259",
+      "name": "三角下标（正方形）",
+      "font_class": "arrRight-fill",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "741862",
+      "name": "个人 (5)",
+      "font_class": "geren5",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "4064031",
+      "name": "赞",
+      "font_class": "zan1",
+      "unicode": "e7f2",
+      "unicode_decimal": 59378
+    },
+    {
+      "icon_id": "758532",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "176241",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5940322",
+      "name": "删  除",
+      "font_class": "shanchu",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "6172485",
+      "name": "耳机",
+      "font_class": "erji1",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "2115502",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}

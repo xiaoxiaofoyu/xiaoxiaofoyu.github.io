@@ -1,0 +1,100 @@
+{
+  "id": "1838033",
+  "name": "ctripitem",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7876796",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "9163906",
+      "name": "信息",
+      "font_class": "ziyuan",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "8794089",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e753",
+      "unicode_decimal": 59219
+    },
+    {
+      "icon_id": "2933472",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "8023783",
+      "name": "叉",
+      "font_class": "cha1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "14320632",
+      "name": "叉 ",
+      "font_class": "cha-",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6256187",
+      "name": "叉",
+      "font_class": "cha",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "13105305",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10471156",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "7559278",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "14453663",
+      "name": "左箭头",
+      "font_class": "zuojiantou1",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "7253807",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9327115",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    }
+  ]
+}
