@@ -10,7 +10,7 @@
   "dependencies": {
     "@better-scroll/core": "^2.0.0-beta.8",
     "axios": "^0.19.2",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "core-js": "^3.6.4",
     "jQuery": "^1.7.4",
     "swiper": "^5.4.1",
