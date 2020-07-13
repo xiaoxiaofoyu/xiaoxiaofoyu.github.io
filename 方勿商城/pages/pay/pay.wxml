@@ -1,0 +1,36 @@
+<view class="Pay">
+	<!-- 个人地址信息 -->
+	<view class="order_contacts">
+		<view class="contacts">
+			<text class="name">小佛</text>
+			<text class="phonenum">17825847294</text>
+		</view>
+		<view class="address">
+			<text>广州市天河区珠吉路60号</text>
+		</view>
+	</view>
+	<!-- 个人地址信息end -->
+	<!-- 订单信息 -->
+	<view class="orderinfo">
+		<view class="goodslisttitle">
+			<view class="goodsname">名称</view>
+			<view class="goodsnum">数量</view>
+			<view class="goodsprice">价格</view>
+		</view>
+		<view class="order" wx:for="{{orderlist}}" wx:key="*this">
+			<view class="goodsname">{{item.name}}</view>
+			<view class="goodsnum">{{item.num}}</view>
+			<view class="goodsprice">￥{{item.price}}.00</view>
+		</view>
+	</view>
+	<!-- 订单信息end -->
+	<!-- 总价格 -->
+	<view class="allprice">
+		<view class="num">
+			<text class="words">总价格：</text>
+			<text class="pricenum">￥{{totalPrice}}.00</text>
+		</view>
+		<view class="btn" bindtap="toPay">支付订单</view>
+	</view>
+	<!-- 总价格end -->
+</view>

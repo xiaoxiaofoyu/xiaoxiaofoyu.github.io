@@ -1,0 +1,15 @@
+<view class="Star">
+	<view class="top_swiper">
+		<view class="item" wx:for="{{topswiperlist}}" wx:key="*this">
+			<view class="pic">
+				<image src="{{item.img}}"></image>
+			</view>
+			<view class="name">
+				<text>{{item.name}}</text>
+			</view>
+			<view class="tit">
+				<text>{{item.tit}}</text>
+			</view>
+		</view>
+	</view>
+</view>

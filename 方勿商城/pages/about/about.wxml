@@ -1,0 +1,17 @@
+<view class="About" style="height:{{windowHeight}}px">
+	<view>公司名称: 方勿科技</view>
+	<view>外文名称: Ithings(Ineffable things)</view>
+	<view>所属行业: 互联网服务和新式零售</view>
+	<view>总部地点: 广州</view>
+	<view>成立时间: 2020/06/30 20:58</view>
+	<view>经营范围: 数码产品和软件</view>
+	<view>公司类型: 有限责任公司</view>
+	<view>公司口号: 诗意代码,诚意产品</view>
+	<view>创始人: 小佛</view>
+	<view>员工: 1人</view>
+	<view>董事长兼CEO: 小佛</view>
+	<view>总裁: 小佛</view>
+	<view>市值: 目标1000亿</view>
+	<view>股票代码: 暂无</view>
+	<view>企业类型: 目标上市民营</view>
+</view>

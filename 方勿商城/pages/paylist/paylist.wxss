@@ -1,0 +1,74 @@
+.paylist {}
+
+.paylist .order {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.paylist .order .img {}
+
+.paylist .order .img image {
+    width: 80px;
+    height: 80px;
+}
+
+.paylist .order .info {
+    flex: 1;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.paylist .order .info .name {
+    width: 150px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.paylist .order .info .price {
+    font-size: 14px;
+    color: #ff6700;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.paylist .order .state {
+    border: 1px solid #999999;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #666666;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.paylist .order .btns {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+}
+.paylist .order .btns .btn {
+    padding: 3px 5px;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+.paylist .order .btns .pay {
+    background-color: #ff6700;
+}
+
+.paylist .order .btns .get {
+    background-color: #22B14C;
+}
+
+.paylist .order .btns .say {
+    background-color: #00A2E8;
+}
+.paylist .order .btns .del {
+    background-color: #ED1C24;
+}

@@ -1,0 +1,55 @@
+<view class="Details">
+	<!-- 轮播图 -->
+	<view>
+		<swiper indicator-dots="true" indicator-color="#ffffff" indicator-active-color="#FF6B00" autoplay="true" interval="5000" circular="true" id="swiper">
+			<block wx:for="{{GoodsDataList[0].imgs}}" wx:key="*this">
+				<swiper-item>
+					<view>
+						<image src="{{item}}"></image>
+					</view>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<!-- 轮播图end -->
+	<!-- 商品详情 -->
+	<view class="goods">
+		<view class="info">
+			<view class="tit">
+				<text>{{GoodsDataList[0].name}}</text>
+			</view>
+			<view class="price">
+				<text class="price_new">￥{{GoodsDataList[0].price}}.00</text>
+				<text class="price_old">￥{{GoodsDataList[0].oldprice}}.00</text>
+			</view>
+		</view>
+		<view class="collection" bindtap="addCollect">
+			<image src="../../image/icon-aixin1.png"></image>
+		</view>
+	</view>
+	<view class="putaddress">
+		<text>发货地址：广州天河区珠吉路60号粤嵌基地</text>
+	</view>
+	<!-- 参数 -->
+	<view class="parameter">
+		<view>【参数】</view>
+		<text>{{GoodsDataList[0].content}}</text>
+	</view>
+	<view class="detailimg">
+		<view wx:for="{{GoodsDataList[0].imgs}}" wx:key="*this">
+			<image mode="widthFix" src="{{item}}"></image>
+		</view>
+	</view>
+	<!-- 商品详情end -->
+	<!-- 商品操作 -->
+	<view class="btns">
+		<view class="cart" bindtap="goCart">
+			<image src="../../image/icon_cart_02.png"></image>
+			<text class="num">{{num}}</text>
+		</view>
+		<view class="gocart" bindtap="goIndex">首页</view>
+		<view class="addcart" bindtap="addCart">加入购物车</view>
+		<view class="gopay" bindtap="goPay">立即付款</view>
+	</view>
+	<!-- 商品操作end -->
+</view>

@@ -1,0 +1,136 @@
+.Details {}
+
+.Details .goods {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.Details .goods .info {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.Details .goods .info .tit {
+    line-height: 17px;
+}
+
+.Details .goods .info .tit text {
+    font-size: 14px;
+    color: #333333;
+}
+
+.Details .goods .info .price {
+    margin-top: 10px;
+}
+
+.Details .goods .info .price .price_new {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff6700;
+}
+
+.Details .goods .info .price .price_old {
+    font-size: 12px;
+    color: #666666;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.Details .goods .collection {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Details .goods .collection image {
+    width: 20px;
+    height: 20px;
+}
+.Details .parameter {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 10px;
+    color: #333333;
+    background-color: #ffffff;
+}
+.Details .detailimg image {
+    width: 100%;
+}
+.Details .putaddress {
+    width: 100%;
+    height: 20px;
+    background-color: #ffffff;
+    margin-top: 2px;
+    font-size: 10px;
+    line-height: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #999999;
+}
+
+.Details .btns {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.Details .btns .cart {
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Details .btns .cart image {
+    width: 20px;
+    height: 20px;
+
+}
+.Details .btns .cart .num {
+    width: 14px;
+    height: 14px;
+    display: block;
+    border-radius: 50%;
+    background-color: #ff6700;
+    font-size: 10px;
+    text-align: center;
+    line-height: 14px;
+    color: #ffffff;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+}
+.Details .btns .gocart,
+.Details .btns .addcart ,
+.Details .btns .gopay {
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #999999;
+}
+.Details .btns .gocart {
+}
+
+.Details .btns .addcart {
+}
+
+.Details .btns .gopay {
+    background-color: #ff6700;
+    width: 30%;
+}

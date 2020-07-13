@@ -1,0 +1,30 @@
+<view class="paylist">
+	<view class="order" wx:for="{{payListData}}" wx:key="*this">
+		<view class="img">
+			<image src="{{item.img}}"></image>
+		</view>
+		<view class="info">
+			<view class="name">
+				<text>{{item.name}}</text>
+			</view>
+			<view class="price">
+				<text>￥{{item.price * item.num}}.00</text>
+			</view>
+			<!-- 0 待付款 -->
+			<!-- 1 待收货 -->
+			<!-- 2 待评价 -->
+		</view>
+		<view class="state">
+			<text wx:if="{{item.type == 0}}">待付款</text>
+			<text wx:if="{{item.type == 1}}">待收货</text>
+			<text wx:if="{{item.type == 2}}">待评价</text>
+			<text wx:if="{{item.type == 3}}">已完成</text>
+		</view>
+		<view class="btns">
+			<view class=" btn pay" wx:if="{{item.type == 0}}" data-id="{{item.id}}" bindtap="nowpay">立即支付</view>
+			<view class=" btn get" wx:if="{{item.type == 1}}" data-id="{{item.id}}" bindtap="nowget">确认收货</view>
+			<view class=" btn say" wx:if="{{item.type == 2}}" data-id="{{item.id}}" bindtap="nowsay">立即评价</view>
+			<view class=" btn del" wx:if="{{item.type == 3}}" data-id="{{item.id}}" bindtap="nowdel">删除订单</view>
+		</view>
+	</view>
+</view>

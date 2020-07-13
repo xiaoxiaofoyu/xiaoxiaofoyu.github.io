@@ -1,0 +1,17 @@
+<view class="Collection">
+	<view class="item" wx:for="{{goodslist}}" wx:key="*this">
+		<navigator class="photo" url="/pages/details/details?id={{item.id}}" hover-class="none">
+			<image src="{{item.img}}"></image>
+		</navigator>
+		<view class="item_content">
+			<view class="name">{{item.name}}</view>
+			<view class="address">{{item.address}}</view>
+			<view class="price">￥{{item.price}}</view>
+			<view class="btns">
+				<view class="del">
+					<image src="../../image/shanchu.png" data-id="{{index}}" bindtap="Del"></image>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

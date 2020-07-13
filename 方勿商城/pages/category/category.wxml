@@ -1,0 +1,17 @@
+<view class="Category">
+	<!-- 左 -->
+	<scroll-view class="cateleft" scroll-y="true" style="height:{{windowHeight}}px">
+		<view class="cate_con" style="min-height:{{windowHeight}}px">
+			<view class="{{id == index ? 'con' : ''}}" wx:for="{{cateleftlist}}" wx:key="*this" data-id="{{index}}" bindtap="cateleftclick">{{item.name}}</view>
+		</view>
+	</scroll-view>
+	<!-- 右 -->
+	<scroll-view class="cateright" scroll-y="true" style="height:{{windowHeight}}px">
+		<view class="cate_con clearfix" style="min-height:{{windowHeight}}px">
+			<view class="cate_item" wx:for="{{cateleftlist[id].data}}">
+				<image src="{{item.img}}"></image>
+				<text>{{item.name}}</text>
+			</view>
+		</view>
+	</scroll-view>
+</view>

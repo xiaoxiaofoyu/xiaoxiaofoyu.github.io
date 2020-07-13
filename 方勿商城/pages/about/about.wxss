@@ -1,0 +1,13 @@
+.About {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.About view {
+    font-size: 12px;
+    color: #666666;
+    padding: 5px 20px;
+}

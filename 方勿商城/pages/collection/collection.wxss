@@ -1,0 +1,61 @@
+.Collection .item{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+.Collection .item  .photo { 
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+}
+.Collection .item  .photo image { 
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+}
+.Collection .item  .item_content {
+    position: relative;
+    flex: 1;
+ }
+.Collection .item  .item_content .name {
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }
+.Collection .item  .item_content .address { 
+    font-size: 12px;
+    color: #666666;
+    height: 14px;
+    line-height: 14px;
+}
+.Collection .item  .item_content .price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff5700;
+    height: 30px;
+    line-height: 40px;
+ }
+.Collection .item  .item_content .btns {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }
+.Collection .item  .item_content .btns .del {
+    margin-left: 10px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+.Collection .item  .item_content .btns .del image {
+    width: 18px;
+    height: 16px;
+}
