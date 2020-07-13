@@ -1,0 +1,902 @@
+.QH_Index {
+}
+/* 大背景图 */
+.BGI {
+    max-width: 1920px;
+    height: 867px;
+    margin: 0 auto;
+    background: url(../images/01官网首页/img/kv.jpg) no-repeat top center;
+}
+.BGI .bgi_con {
+    width: 1148px;
+    height: 867px;
+    margin: 0 auto;
+
+    position: relative;
+}
+.BGI .bgi_con .download {
+    width: 370px;
+    height: 159px;
+    position: absolute;
+    left: 0;
+    bottom: 99px;
+    z-index: 50;
+    background-color: #b9150f;
+}
+.BGI .bgi_con .download .code {
+    width: 152px;
+    height: 153px;
+    padding-left: 22px;
+    padding-top: 6px;
+    background: url(../images/01官网首页/img/word-1.png) no-repeat 5px 10px;
+
+    position: relative;
+}
+.BGI .bgi_con .download .code .down_erweima {
+    width: 144px;
+    height: 144px;
+    border: 2px solid #27273f;
+}
+.BGI .bgi_con .download .code .line {
+    width: 148px;
+    height: 10px;
+
+    position: absolute;
+    top: 2px;
+    left: 22px;
+    z-index: 100;
+}
+.BGI .bgi_con .download .facility {
+    width: 187px;
+    height: 159px;
+    background-color: #250402;
+}
+.BGI .bgi_con .download .facility .appStore {
+    width: 176px;
+    height: 44px;
+    background: url(../images/01官网首页/img/down-ios.png) no-repeat top left;
+    margin: 7px 0px 6px 6px;
+
+    position: relative;
+    cursor: pointer;
+}
+.BGI .bgi_con .download .facility .android {
+    width: 177px;
+    height: 45px;
+    background: url(../images/01官网首页/img/down-android.png) no-repeat top left;
+    margin: 0px 0px 6px 5px;
+
+    position: relative;
+    cursor: pointer;
+}
+.BGI .bgi_con .download .facility .pc {
+    width: 177px;
+    height: 45px;
+    background: url(../images/01官网首页/img/down-pc.png) no-repeat top left;
+    margin-left: 5px;
+
+    position: relative;
+    cursor: pointer;
+}
+.BGI .bgi_con .download .facility .appStore i ,
+.BGI .bgi_con .download .facility .android i ,
+.BGI .bgi_con .download .facility .pc i {
+    display: block;
+    width: 19px;
+    height: 26px;
+    background: url(../images/01官网首页/img/spr.png) no-repeat -26px -99px;
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    z-index: 100;
+}
+.BGI .bgi_con .on_btn {
+    width: 1148px;
+    height: 73px;
+    position: absolute;
+    left: 0;
+    bottom: 160px;
+
+}
+.BGI .bgi_con .on_btn .btn_video {
+    width: 63px;
+    height: 73px;
+    position: relative;
+    margin: 0 auto;
+
+    cursor: pointer;
+}
+.BGI .bgi_con .on_btn .btn_video .btn_video_1 {
+    width: 63px;
+    height: 73px;
+    transition: all 1.5s;
+}
+.BGI .bgi_con .on_btn .btn_video .btn_video_2 {
+    width: 63px;
+    height: 73px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: all 1.5s;
+}
+/* 大背景图end */
+/* 头部 */
+.Top { 
+    padding-top: 99px;
+    background: url(../images/01官网首页/img/bg-1.jpg) no-repeat top center;
+    height: 545px;
+}
+.Top .top_con {
+    width: 1148px;
+    height: 362px;
+    margin: -198px auto 0 auto;
+    background-color: #fff;
+}
+/* 轮播图 */
+.Top .top_con .solide {
+    width: 663px;
+    height: 362px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+.Top .top_con .solide ul {
+    width: 1000%;
+    height: 352px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Top .top_con .solide ul li {
+    width: 663px;
+    height: 362px;
+    float: left;
+}
+.Top .top_con .solide ul li a {
+    display: block;
+    width: 663px;
+    height: 362px;
+}
+.Top .top_con .solide ul li a img {
+    width: 663px;
+    height: 362px;
+}
+.Top .top_con .solide .prev,
+.Top .top_con .solide .next {
+    width: 31px;
+    height: 42px;
+    background: #2f2f3e url(../images/01官网首页/img/spr.png) no-repeat -20px -7px;
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    cursor: pointer;
+}
+.Top .top_con .solide .prev {
+    left: 0;
+}
+.Top .top_con .solide .next {
+    right: 0;
+    background-position: -73px -7px;
+}
+.Top .top_con .solide ol {
+    width: 1000%;
+    height: 42px;
+    background-color: rgba(47, 43, 40, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+.Top .top_con .solide ol li {
+    width: 220px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a3a3a3;
+    float: left;
+    cursor: pointer;
+}
+.Top .top_con .solide ol li.con {
+    color: #ffffff;
+}
+/* 轮播图end */
+/* 新闻资讯tab选项卡 */
+.Top .top_con .hot {
+    width: 435px;
+    height: 349px;
+    background-color: #fff;
+    padding: 13px 25px 0 25px;
+}
+.Top .top_con .hot .hot_nav {
+    width: 435px;
+    height: 36px;
+    border-bottom: 2px solid #ececec;
+
+    position: relative;
+}
+.Top .top_con .hot .hot_nav ul {}
+.Top .top_con .hot .hot_nav ul li {
+    width: 64px;
+    height: 36px;
+    border-bottom: 2px solid #ececec;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #585858;
+    float: left;
+    margin-right: 22px;
+    cursor: pointer;
+}
+.Top .top_con .hot .hot_nav ul li.con {
+    color: #e80202;
+    border-color: #e80202;
+}
+.Top .top_con .hot .hot_nav .MORE {
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+.Top .top_con .hot .hot_img {
+    width: 435px;
+    height: 84px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.Top .top_con .hot .hot_img a {
+    display: block;
+    width: 435px;
+    height: 84px;
+}
+.Top .top_con .hot .hot_img a img {
+    width: 435px;
+    height: 84px;
+}
+.Top .top_con .hot .hot_list {}
+.Top .top_con .hot .hot_list ul {
+    display: none;
+}
+.Top .top_con .hot .hot_list ul.con {
+    display: block;
+}
+.Top .top_con .hot .hot_list ul li {
+    line-height: 36px;
+    height: 36px;
+}
+.Top .top_con .hot .hot_list ul li a {
+    display: inline-block;
+    width: 335px;
+    font-size: 16px;
+    color: #585858;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Top .top_con .hot .hot_list ul li .notice {
+    font-size: 16px;
+    color: #585858;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.Top .top_con .hot .hot_list ul li .time {
+    font-size: 14px;
+    color: #707070;
+}
+.Top .top_con .hot .hot_list ul li:hover .notice{
+    color: #e80202;
+}
+.Top .top_con .hot .hot_list ul li:hover a{
+    color: #e80202;
+}
+/* 新闻资讯tab选项卡end */
+/* 板块分区 */
+.Top .Zone {
+    width: 1148px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.Top .Zone ul {
+    width: 110%;
+}
+.Top .Zone ul li {
+    width: 290px;
+    height: 180px;
+    float: left;
+
+    transition: 0.5s;
+}
+.Top .Zone ul li a {
+    display: block;
+    width: 290px;
+    height: 180px;
+}
+.Top .Zone ul li:hover {
+    transform: translateY(-5px);
+}
+/* 板块分区end */
+/* 格斗家标题 */
+.Top .title {
+    width: 1148px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 76px;
+}
+/* 格斗家标题end */
+/* 头部end */
+/* 格斗家专区 */
+.Fighter {
+    max-width: 1920px;
+    overflow: hidden;
+    height: 740px;
+    margin: 0 auto;
+    background: url(../images/01官网首页/fighter/bg-2.jpg) 0 0;
+}
+.Fighter .Fighter_con {
+    width: 1200px;
+    margin: 0 auto;
+    height: 740px;
+    position: relative;
+}
+/* 格斗家信息 */
+.Fighter .Fighter_con .details {
+    width: 566px;
+    height: 528px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    left: 0;
+    top: 38px;
+    z-index: 500;
+}
+.Fighter .Fighter_con .details .details_con {
+    width: 512px;
+    height: 510px;
+    padding: 18px 26px 0 26px;
+}
+.Fighter .Fighter_con .details .details_con .top .left {
+    width: 256px;
+    height: 302px;
+}
+.Fighter .Fighter_con .details .details_con .top .left .top_spr {
+    width: 203px;
+    height: 14px;
+    background: url(../images/01官网首页/img/spr.png) no-repeat -9px -258px;
+    margin-top: 11px;
+}
+.Fighter .Fighter_con .details .details_con .top .left .name {
+    font-size: 36px;
+    color: #ffffff;
+    font-style: italic;
+    line-height: 56px;
+    font-weight: 600;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Fighter .Fighter_con .details .details_con .top .left dl {
+    width: 280px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Fighter .Fighter_con .details .details_con .top .left dl dd {
+    width: 119px;
+    height: 23px;
+    line-height: 23px;
+    float: left;
+    margin-right: 18px;
+    
+}
+.Fighter .Fighter_con .details .details_con .top .left dl dd i {
+    font-size: 14px;
+    color: #ffffff;
+    font-style: normal;
+}
+.Fighter .Fighter_con .details .details_con .top .left dl dd b {
+    font-size: 14px;
+    color: #bdbdbd;
+}
+.Fighter .Fighter_con .details .details_con .top .line {
+    width: 1px;
+    height: 187px;
+    margin-top: 109px;
+}
+.Fighter .Fighter_con .details .details_con .top .line img {
+    width: 1px;
+    height: 187px;
+}
+.Fighter .Fighter_con .details .details_con .top .right {
+    width: 255px;
+    height: 302px;
+}
+.Fighter .Fighter_con .details .details_con .top .right .SR {
+    width: 89px;
+    height: 67px;
+    margin-left: 5px;
+    background: url(../images/01官网首页/fighter/sr.png) no-repeat center center;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Fighter .Fighter_con .details .details_con .top .right .KDA {
+    width: 223px;
+    height: 183px;
+    margin-top: 43px;
+    margin-left: 11px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Fighter .Fighter_con .details .details_con .middle {
+    position: relative;
+}
+.Fighter .Fighter_con .details .details_con .middle ul {
+    padding: 0 32px;
+}
+.Fighter .Fighter_con .details .details_con .middle ul li {
+    float: left;
+    cursor: pointer;
+}
+.Fighter .Fighter_con .details .details_con .middle ul li .img1 {
+    display: block;
+    width: 112px;
+    height: 115px;
+}
+.Fighter .Fighter_con .details .details_con .middle ul li .img2 {
+    display: none;
+    width: 112px;
+    height: 115px;
+}
+.Fighter .Fighter_con .details .details_con .middle ul li.con .img1 {
+    display: none;
+}
+.Fighter .Fighter_con .details .details_con .middle ul li.con .img2 {
+    display: block;
+}
+.Fighter .Fighter_con .details .details_con .middle .prev ,
+.Fighter .Fighter_con .details .details_con .middle .next {
+    width: 20px;
+    height: 38px; 
+    background: url(../images/01官网首页/img/spr.png) no-repeat -25px -145px;
+
+    position: absolute;
+    top: 45px;
+
+    cursor: pointer;
+    
+}
+.Fighter .Fighter_con .details .details_con .middle .prev {
+    left: 0;
+}
+.Fighter .Fighter_con .details .details_con .middle .next {
+    right: 0;
+    background: url(../images/01官网首页/img/spr.png) no-repeat -66px -145px;
+}
+.Fighter .Fighter_con .details .details_con .bottom {
+    width: 207px;
+    height: 61px;
+    background: url(../images/01官网首页/fighter/more-1.png) no-repeat center center;
+    margin-top: 10px;
+}
+.Fighter .Fighter_con .details .details_con .bottom a {
+    display: block;
+    width: 207px;
+    height: 61px;
+    font-size: 17px;
+    line-height: 61px;
+    text-indent: 80px;
+    color: #ffffff;
+}
+.Fighter .Fighter_con .details .details_con .bottom em {
+    display: inline-block;
+    width: 8px;
+    height: 15px;
+    background: url(../images/01官网首页/img/spr.png) no-repeat -234px -24px;
+    position: relative;
+    left: 7px;
+    top: 1px;
+}
+/* 格斗家图片 */
+.Fighter .Fighter_con .picture {
+    /* margin-left: 432px; */
+    position: relative;
+}
+.Fighter .Fighter_con .picture img {
+    width: 1000px;
+    height: 740px;
+    position: absolute;
+    top: 0;
+    left: 432px;
+
+    opacity: 0;
+}
+.Fighter .Fighter_con .picture .con {
+    opacity: 1;
+}
+.Fighter_body {
+    width: 100%;
+    background: url(../images/01官网首页/img/bg-1.jpg) no-repeat top center;
+    padding-top: 117px;
+    
+}
+.Fighter_body .Fighter_body_con {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-bottom: 56px;
+    position: relative;
+}
+/* 攻略 */
+.Fighter_body .strategy {
+    width: 1200px;
+    margin: 0 auto;
+}
+.Fighter_body .strategy .strategy_con {
+    width: 1175px;
+    height: 376px;
+    margin-top: -234px;
+    position: relative;
+    padding-top: 22px;
+    padding-left: 25px;
+}
+.Fighter_body .strategy .strategy_con .gl {
+    width: 800px;
+}
+.Fighter_body .strategy .strategy_con .gl .title {
+    position: relative;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_nav {
+    width: 800px;
+    height: 35px;
+    border-bottom: 2px solid #ececec;
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_nav ul {
+    padding-left: 11px;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_nav ul li {
+    width: 91px;
+    height: 35px;
+    border-bottom: 2px solid #ececec;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: #585858;
+    float: left;
+    margin-right: 53px;
+    cursor: pointer;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_nav ul li.con {
+    color: #e80202;
+    border-color: #e80202;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_con {
+    width: 800px;
+    overflow: hidden;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_con ul {
+    width: 110%;
+    display: none;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_con ul.con {
+    display: block;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_con ul li {
+    width: 374px;
+    height: 62px;
+    border-bottom: 1px solid #ececec;
+    padding-top: 7px;
+    float: left;
+    margin-right: 50px;
+    
+}
+.Fighter_body .strategy .strategy_con .gl .gl_con ul li a {
+    display: block;
+    width: 374px;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #585858;
+    font-size: 16px;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_con ul li .time {
+    font-size: 13px;
+    color: #918d8d;
+    line-height: 26px;
+}
+.Fighter_body .strategy .strategy_con .gl .gl_con ul li a:hover {
+    color: #FF0000;
+}
+.Fighter_body .strategy .strategy_con .xs {
+    width: 350px;
+    height: 353px;
+    background-color: #d12525;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con {
+    width: 324px;
+    height: 330px;
+    padding-left: 26px;
+    padding-top: 23px;
+    position: relative;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con h1 {
+    width: 153px;
+    height: 26px;
+    background: url(../images/01官网首页/fighter/fighter_con/tit-1-2.png) no-repeat center center;
+    position: relative;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con h1 em {
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(../images/01官网首页/img/spr.png) no-repeat -292px -19px;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con ul {
+    margin-top: 33px;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con ul li {
+    width: 300px;
+    height: 60px;
+    padding-top: 18px;
+    border-bottom: 1px solid #ba0404;
+    padding-left: 16px;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con ul li a {}
+.Fighter_body .strategy .strategy_con .xs .xs_con ul li a p {
+    font-size: 21px;
+    color: #ffffff;
+    font-style: italic;
+    position: relative;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con ul li a p em {
+    display: block;
+    width: 9px;
+    height: 10px;
+    background: url(../images/01官网首页/img/spr.png) no-repeat -84px -58px;
+    position: absolute;
+    top: 8px;
+    left: -15px;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con ul li a span {
+    font-size: 16px;
+    color: #ffc7c7;
+    font-style: italic;
+    line-height: 23px;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con ul li a:hover p ,
+.Fighter_body .strategy .strategy_con .xs .xs_con ul li a:hover span 
+{
+    text-decoration: underline;
+}
+.Fighter_body .strategy .strategy_con .xs .xs_con img {
+    position: absolute;
+    top: 0;
+    right: -72px;
+} 
+/* 攻略end */
+/* 视频中心 */
+.Fighter_body .video {
+    width: 1200px;
+    margin: 0 auto;
+}
+.Fighter_body .video .video_con {
+    width: 1150px;
+    padding: 0 25px;
+    position: relative;
+    margin-bottom: 60px;
+}
+.Fighter_body .video .video_con .video_nav {
+    width: 100%;
+    height: 35px;
+    border-bottom: 2px solid #ececec;
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+.Fighter_body .video .video_con .video_nav ul {
+    padding-left: 11px;
+}
+.Fighter_body .video .video_con .video_nav ul li {
+    width: 91px;
+    height: 35px;
+    border-bottom: 2px solid #ececec;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: #585858;
+    float: left;
+    margin-right: 53px;
+    cursor: pointer;
+}
+.Fighter_body .video .video_con .video_nav ul li.con {
+    color: #e80202;
+    border-color: #e80202;
+}
+.Fighter_body .video .video_con .video_TV {
+    padding-top: 10px;
+    
+}
+.Fighter_body .video .video_con .video_TV ul {
+    width: 110%;
+    display: none;
+}
+.Fighter_body .video .video_con .video_TV ul.con {
+    display: block;
+}
+.Fighter_body .video .video_con .video_TV ul li {
+    width: 200px;
+    height: 171px;
+    margin-right: 37px;
+    float: left;
+    overflow: hidden;
+}
+.Fighter_body .video .video_con .video_TV ul li a {
+}
+.Fighter_body .video .video_con .video_TV ul li a .img {
+    width: 200px;
+    height: 120px;
+    position: relative;
+}
+.Fighter_body .video .video_con .video_TV ul li a .img img {
+    width: 200px;
+    height: 120px;
+    transition: all 0.5s;
+}
+.Fighter_body .video .video_con .video_TV ul li a .img .video_btn {}
+.Fighter_body .video .video_con .video_TV ul li a .img .time {
+    width: 200px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+    text-indent: 112px;
+    font-size: 14px;
+    color: #d1d1d0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.Fighter_body .video .video_con .video_TV ul li a .TV_tit {
+    margin-top: 7px;
+    font-size: 14px;
+    color: #8b8b8b;
+    line-height: 22px;
+}
+.Fighter_body .video .video_con .video_TV ul li:hover a .img img {
+    transform: scale(1.1);
+}
+/* 视频中心end */
+/* 同人专区 */
+
+.Fighter_body .video_second .video_con .video_TV ul li {
+    overflow: visible;
+}
+/* 同人专区end */
+/* 格斗家专区end */
+/* 游戏特色 */
+.Games {
+    width: 100%;
+}
+.Games .top_title {
+    width: 100%;
+    height: 184px;
+    background: url(../images/01官网首页/img/bg-4.jpg) no-repeat top center;
+}
+.Games .top_title .top_title_con {
+    width: 1202px;
+    height: 184px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.Games .top_title .top_title_con img {
+    width: 794px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.Games .solide {
+    width: 100%;
+    height: 690px;
+    background: url(../images/01官网首页/games/bg-5.jpg) no-repeat top center;
+}
+.Games .solide .solide_con {
+    width: 1202px;
+    height: 690px;
+    margin: 0 auto;
+    position: relative;
+}
+.Games .solide .solide_con ul {
+    width: 1202px;
+    height: 690px;
+    position: relative;
+}
+.Games .solide .solide_con ul li {
+    overflow: hidden;
+    position: absolute;
+}
+.Games .solide .solide_con ul li a {
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   cursor: default;
+}
+.Games .solide .solide_con ul li a .kv-bg {
+    width: 100%;
+    height: 100%;
+}
+.Games .solide .solide_con ul li a .man {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Games .solide .solide_con ul li a .char {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Games .solide .solide_con .prev ,
+.Games .solide .solide_con .next {
+    width: 41px;
+    height: 78px;
+    background: url(../images/01官网首页/img/spr.png) no-repeat -115px -126px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    
+    z-index: 1000;
+
+    cursor: pointer;
+}
+.Games .solide .solide_con .prev {
+    left: 0;
+}
+.Games .solide .solide_con .next {
+    background-position: -192px -126px;
+    right: 0;
+}
+.Games .solide .solide_con ol {
+    width: 115px;
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.Games .solide .solide_con ol li {
+    width: 15px;
+    height: 15px;
+    background-color: #c58ef3;
+    border-radius: 7px;
+    margin: 0 3px;
+    float: left;
+}
+.Games .solide .solide_con ol li.con {
+    width: 25px;
+    background-color: #a208de;
+}
+/* 游戏特色end */

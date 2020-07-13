@@ -1,0 +1,204 @@
+.NEWS {}
+.Hearder {
+    background-color: rgba(0,0,0,0.8);
+}
+/* 新闻资讯 */
+.News {
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 1798px;
+    background: #fefdf9 url(../images/02新闻资讯/icon/index-bg.jpg) no-repeat top center;
+    margin-top: -72px;
+    position: relative;
+}
+.News .news_con {
+    width: 1200px;
+    position: absolute;
+    top: 572px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/* 左栏 */
+.News .news_con .left {
+    width: 247px;
+    height: 976px;
+    background: url(../images/02新闻资讯/icon/left-nav-bg.png) no-repeat 0 0;
+}
+/* 下载 */
+.News .news_con .left .download {
+    width: 247px;
+    height: 173px;
+    overflow: hidden;
+    margin-top: 255px;
+}
+.News .news_con .left .download a {
+    display: block;
+    width: 247px;
+    height: 55px;
+    margin-bottom: 4px;
+}
+/* 下载end */
+/* 轮播图 */
+.News .news_con .left .left_solide {
+    width: 247px;
+    height: 147px;
+    overflow: hidden;
+    padding-top: 17px;
+    position: relative;
+}
+.News .news_con .left .left_solide ul {
+    width: 1000%;
+    position: absolute;
+    left: 0;
+    top: 17px;
+}
+.News .news_con .left .left_solide ul li {
+    width: 247px;
+    height: 120px;
+    float: left;
+}
+.News .news_con .left .left_solide ul li a {
+    display: block;
+    width: 247px;
+    height: 120px;
+}
+.News .news_con .left .left_solide ul li a img {
+    width: 247px;
+    height: 120px;
+}
+.News .news_con .left .left_solide ol {
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+}
+.News .news_con .left .left_solide ol li {
+    width: 14px;
+    height: 14px;
+    margin:  0 3px;
+    background-color: #878787;
+    border-radius: 50%;
+    float: left;
+}
+.News .news_con .left .left_solide ol li.con {
+    background-color: #F83000;
+}
+/* 轮播图end */
+/* 回到首页&顶部 */
+.News .news_con .left .back {
+    width: 247px;
+    height: 142px;
+    margin-top: 241px;
+}
+.News .news_con .left .back .home {
+    display: block;
+    width: 247px;
+    height: 82px;
+}
+.News .news_con .left .back .top {
+    display: block;
+    width: 247px;
+    height: 61px;
+}
+/* 回到首页&顶部end */
+/* 左栏end */
+/* 右栏 */
+.News .news_con .right {
+    width: 940px;
+    background-color: #ffffff;
+    padding-bottom: 22px;
+}
+/* 标题 */
+.News .news_con .right .title {
+    width: 100%;
+    height: 61px;
+    padding-top: 19px;
+    background-color: #f2f2f2;
+}
+.News .news_con .right .title .tit_logo {
+    width: 195px;
+    height: 49px;
+    margin-left: 20px;
+    background: url(../images/02新闻资讯/icon/news-logo.png) no-repeat center center;
+}
+.News .news_con .right .title .tit_nav {
+    font-size: 14px;
+    color: #9e9e9e;
+    line-height: 32px;
+    padding-right: 10px;
+}
+.News .news_con .right .title .tit_nav a {
+    font-size: 14px;
+    color: #9e9e9e;
+}
+/* 标题end */
+/* 导航 */
+.News .news_con .right .news_nav {
+    border-bottom: 1px solid #ede5e2;
+}
+.News .news_con .right .news_nav ul {
+    padding-left: 50px;
+    padding-top: 12px;
+}
+.News .news_con .right .news_nav ul li {
+    width: 210px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 23px;
+    color: #8c5f4b;
+    float: left;
+
+    cursor: pointer;
+}
+.News .news_con .right .news_nav ul li.con {
+    font-weight: 600;
+    background: url(../images/02新闻资讯/icon/nav-bg.png) no-repeat 51px -30px;
+}
+/* 导航end */
+/* 新闻资讯内容 */
+.News .news_con .right .content {}
+.News .news_con .right .content ul {
+    padding: 20px;
+}
+.News .news_con .right .content ul li {
+    height: 42px;
+    border-bottom: 1px solid #dcd0cf;
+    padding-top: 18px;
+}
+.News .news_con .right .content ul li a {
+    line-height: 22px;
+}
+.News .news_con .right .content ul li a p {
+    width: 745px;
+    font-size: 16px;
+    color: #742e28;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.News .news_con .right .content ul li a i {
+    font-size: 12px;
+    color: #b4856b;
+    font-style: normal;
+    margin-right: 36px;
+}
+.News .news_con .right .btn {}
+.News .news_con .right .btn .prev {
+    width: 137px;
+    height: 50px;
+    background: url(../images/02新闻资讯/icon/btn-prve.png) no-repeat center center;
+    margin-left: 280px;
+    cursor: pointer;
+}
+.News .news_con .right .btn .next {
+    width: 137px;
+    height: 50px;
+    background: url(../images/02新闻资讯/icon/btn-next.png) no-repeat center center;
+    margin-right: 280px;
+    cursor: pointer;
+}
+/* 新闻资讯内容end */
+/* 右栏end */
+/* 新闻资讯end */

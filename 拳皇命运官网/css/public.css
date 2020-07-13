@@ -1,0 +1,212 @@
+/* 顶部导航 */
+.Hearder {
+    width: 100%;
+    height: 72px;
+    background-color: #333333;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+}
+.Hearder .hearder_con {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #d31643;
+}
+.Hearder .hearder_con .Logo {
+    width: 306px;
+    height: 123px;
+    position: relative;
+}
+.Hearder .hearder_con .Logo img {
+    width: 107px;
+    height: 107px;
+
+    position: absolute;
+    top: 16px;
+    left: 29px;
+    cursor: pointer;
+}
+.Hearder .hearder_con .Logo .Name {
+    width: 119px;
+    height: 26px;
+    background: url(../images/01官网首页/icon/Name.png) no-repeat center center;
+    position: absolute;
+    top: 18px;
+    left: 146px;
+    cursor: pointer;
+}
+.Hearder .hearder_con .Logo span {
+    font-size: 14px;
+    color: #c2061d;
+    font-style: italic;
+
+    position: absolute;
+    top: 46px;
+    left: 146px;
+    cursor: pointer;
+}
+.Hearder .hearder_con .Nav {}
+.Hearder .hearder_con .Nav ul {}
+.Hearder .hearder_con .Nav ul li {
+    float: left;
+    line-height: 70px;
+}
+.Hearder .hearder_con .Nav ul li a {
+    font-size: 20px;
+    color: #e9ebf9;
+    font-style: italic;
+}
+.Hearder .hearder_con .Nav ul li span {
+    font-size: 12px;
+    color: #c22335;
+    margin: 0 12px;
+}
+.Hearder .hearder_con .Nav ul li a:hover {
+    color: #CE372F;
+}
+.Hearder .hearder_con .CDkey {
+    width: 145px;
+    height: 34px;
+    background: url(../images/01官网首页/icon/btn-cdkey.png) no-repeat center center;
+    margin-top: 21px;
+    margin-right: 21px;
+    cursor: pointer;
+}
+/* 顶部导航end */
+/* 更多 */
+.MORE {
+    width: 55px;
+    height: 22px;
+    margin-top: 3px;
+    float: right;
+
+    cursor: pointer;
+}
+.MORE a {
+    line-height: 22px;
+    font-size: 16px;
+    color: #e80202; 
+}
+.MORE em {
+    transition: all 0.5s;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #2f2f3e url(../images/01官网首页/img/spr.png) no-repeat -31px -58px;
+}
+.MORE:hover a{
+    text-decoration: underline;
+}
+.MORE:hover em {
+    transform-origin: bottom right;
+    transform: rotateZ(22deg);
+}
+/* 更多end */
+/* 底部 */
+.Footer {
+    background-color: #000000;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.Footer .footer_con {
+    /* width: 1140px;
+    height: 448px;
+    margin: 0 auto; */
+}
+.Footer .footer_con .footer_nav {
+    width: 100%;
+    height: 209px;
+    padding-top: 16px;
+    border-bottom: 1px solid #1a1a1a;
+    overflow: hidden;
+}
+.Footer .footer_con .footer_nav .nav_con {
+    width: 1140px;
+    height: 174px;
+    padding-top: 35px;
+    margin: 0 auto;
+}
+.Footer .footer_con .footer_nav .nav_con ul {
+    width: 120%;
+}
+.Footer .footer_con .footer_nav .nav_con ul li {
+    float: left;
+    width: 168px;
+    height: 180px;
+    text-align: center;
+    margin-right: 156px;
+}
+.Footer .footer_con .footer_nav .nav_con ul li a {
+    display: block;
+    width: 168px;
+    height: 180px;
+    position: relative;
+}
+.Footer .footer_con .footer_nav .nav_con ul li a .foot {
+    width: 98px;
+    height: 98px;
+}
+.Footer .footer_con .footer_nav .nav_con ul li a .erweima {
+    width: 147px;
+    height: 148px;
+    position: absolute;
+    left: 10px;
+    top: -128px;
+    z-index: 1000;
+    opacity: 0;
+}
+.Footer .footer_con .footer_nav .nav_con ul li a p {
+    font-size: 20px;
+    color: #a6a0a0;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.Footer .footer_con .footer_words {}
+.Footer .footer_con .footer_words .words_con {
+    width: 1140px;
+    height: 184px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.Footer .footer_con .footer_words .words_con .logo {
+    width: 425px;
+    height: 180px;
+    background: url(../images/01官网首页/footer/foot-dark.png) no-repeat 18px 0;
+}
+.Footer .footer_con .footer_words .words_con .words {
+    width: 715px;
+    line-height: 21px;
+}
+.Footer .footer_con .footer_words .words_con .words ul {}
+.Footer .footer_con .footer_words .words_con .words ul li {
+    float: left;
+}
+.Footer .footer_con .footer_words .words_con .words ul li a {
+    font-size: 12px;
+    color: #ffffff;
+}
+.Footer .footer_con .footer_words .words_con .words ul li span {
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0 2px;
+}
+.Footer .footer_con .footer_words .words_con .words p {
+    font-size: 12px;
+    color: #ffffff;
+}
+.Footer .footer_con .footer_words .words_con .words p a {
+    font-size: 12px;
+    color: #ffffff;
+}
+.Footer .footer_con .footer_words .words_con .words p a em {
+    display: inline-block;
+    width: 13px;
+    height: 15px;
+    background: url(../images/01官网首页/footer/icplogo.png) no-repeat center center;
+    margin-right: 2px;
+    position: relative;
+    left: 0;
+    top: 3px;
+}
+/* 底部end */

@@ -1,0 +1,182 @@
+.Fighter {}
+/* 顶部大图 */
+.B_pic {
+    max-width: 1920px;
+    height: 799px;
+    margin: auto;
+    position: relative;
+}
+.B_pic img {
+    width: 100%;
+    height: 799px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* 顶部大图end */
+/* 格斗家列表 */
+.Fig_List {
+    max-width: 1920px;
+    height: 1200px;
+    margin: 0 auto;
+    background: url(../images/04格斗家站/icon/list_bg.jpg) no-repeat top left;
+    position: relative;
+    padding-top: 1px;
+}
+.Fig_List .list_con {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: -101px;
+}
+/* 列表头部 */
+.Fig_List .list_con .list_header {
+    width: 1200px;
+    height: 165px;
+    background: url(../images/04格斗家站/icon/list_topbg.png) no-repeat 0 0;
+    
+}
+/* 地址导航 */
+.Fig_List .list_con .list_header .list_loaction {
+    line-height: 45px;
+    width: 1200px;
+}
+.Fig_List .list_con .list_header .list_loaction a {
+    font-size: 14px;
+    color: #c92117;
+    text-decoration: underline;
+}
+.Fig_List .list_con .list_header .list_loaction a.index_a {
+    padding-left: 21px;
+    background: url(../images/04格斗家站/icon/icon.png) no-repeat -216px -171px;
+    margin-left: 15px;
+}
+.Fig_List .list_con .list_header .list_loaction span {
+    display: inline-block;
+    width: 9px;
+    height: 15px;
+    background: url(../images/04格斗家站/icon/icon.png) no-repeat -391px -60px;
+    position: relative;
+    top: 3px;
+    left: 0;
+    margin: 0 10px;
+}
+/* 格斗家导航 */
+.Fig_List .list_con .list_header .list_Nav {
+    width: 1200px;
+    position: relative;
+}
+.Fig_List .list_con .list_header .list_Nav .list_nav {
+     height: 120px;
+     line-height: 120px;
+     position: absolute;
+     top: 0;
+     left: 218px;
+}
+.Fig_List .list_con .list_header .list_Nav .list_nav ul {}
+.Fig_List .list_con .list_header .list_Nav .list_nav ul li {
+    float: left;
+    font-size: 24px;
+    color: #919191;
+    width: 50px;
+    height: 120px;
+    padding-left: 38px;
+    margin-right: 25px;
+    background: url(../images/04格斗家站/icon/select_def.png) no-repeat left center;
+}
+.Fig_List .list_con .list_header .list_Nav .list_nav ul li.con {
+    background-image: url(../images/04格斗家站/icon/select_cur.png);
+    color: #C11F15;
+}
+/* 搜索框 */
+.Fig_List .list_con .list_header .list_Nav .list_search {
+    width: 320px;
+    height: 52px;
+    position: absolute;
+    top: 33px;
+    right: 40px;
+}
+.Fig_List .list_con .list_header .list_Nav .list_search input {
+    width: 270px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #ababab;
+    float: left;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    text-indent: 10px;
+    color: #ABABAB;
+}
+.Fig_List .list_con .list_header .list_Nav .list_search .inp_btn {
+    width: 47px;
+    height: 50px;
+    border: 1px solid #ababab;
+    border-left: 0;
+    float: left;
+    background: url(../images/04格斗家站/icon/icon_search.png) no-repeat center center;
+    background-size: 19px 19px;
+}
+/* 列表头部end */
+/* 列表内容*/
+.Fig_List .list_con .list_content {
+    width: 1200px;
+    padding-top: 77px;
+}
+.Fig_List .list_con .list_content ul {
+    
+}
+.Fig_List .list_con .list_content ul li {
+    width: 108px;
+    height: 140px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 13px;
+}
+.Fig_List .list_con .list_content ul li a {
+    display: block;
+    width: 108px;
+    height: 140px;
+    text-align: center;
+    position: relative;
+}
+.Fig_List .list_con .list_content ul li a img {
+    width: 108px;
+    height: 110px;
+    /* 图片与背景色混合 */
+    mix-blend-mode: luminosity;
+    background: #ffffff;
+}
+.Fig_List .list_con .list_content ul li a span {
+    font-size: 12px;
+    color: #545454;
+    line-height: 30px;
+}
+.Fig_List .list_con .list_content ul li:hover a span {
+    color: #F0271B;
+}
+/* 列表内容end */
+/* 格斗家列表end  */
+/* 底部 */
+.Footer .footer_con .footer_words .words_con {
+    width: 1200px;
+    height: 72px;
+}
+.Footer .footer_con .footer_words .words_con .words {
+    width: 1200px;
+    position: relative;
+    line-height: 17px;
+}
+.Footer .footer_con .footer_words .words_con .words ul {
+    width: 702px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -23px;
+}
+.Footer .footer_con .footer_words .words_con .words ul li span {
+    margin: 0 5px;
+}
+.Footer .footer_con .footer_words .words_con .words p {
+    text-align: center;
+}
+/* 底部end */
