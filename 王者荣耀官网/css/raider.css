@@ -1,0 +1,1071 @@
+/* 头部 */
+.Top .herofree {
+    width: 100%;
+    height: 115px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.Top .herofree .herofree_box {
+    height: 115px;
+    background-color: pink;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: url(../images/herolist-images/icon/bg_header.png) no-repeat 0 0;
+}
+.Top .herofree .herofree_box .left {
+    width: 751px;
+    height: 106px;
+    padding-left: 20px;
+    padding-top: 9px;
+
+    position: relative;
+}
+.Top .herofree .herofree_box .left .time {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    color: #a6afbc;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+.Top .herofree .herofree_box .left ul {
+    width: 708px;
+    height: 69px;
+}
+.Top .herofree .herofree_box .left ul li {
+    width: 69px;
+    height: 69px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.Top .herofree .herofree_box .left ul li a {
+    display: block;
+    height: 69px;
+    border-radius: 4px;
+    
+}
+.Top .herofree .herofree_box .left ul li .img01 {
+    width: 69px;
+    height: 69px;
+}
+.Top .herofree .herofree_box .left ul li .img02 {
+    width: 222px;
+    height: 69px;
+
+    display: none;
+}
+.Top .herofree .herofree_box .left ul li.con {
+    width: 222px;
+}
+.Top .herofree .herofree_box .left ul li.con a {
+    width: 222px;
+}
+.Top .herofree .herofree_box .left ul li.con a img {
+    width: 222px;
+}
+.Top .herofree .herofree_box .left ul li.con a .img01 {
+    display: none;
+}
+.Top .herofree .herofree_box .left ul li.con a .img02 {
+    display: block;
+}
+.Top .herofree .herofree_box .left .morehreo {
+    width: 23px;
+    height: 69px;
+    position: absolute;
+    top: 37px;
+    right: 24px;
+    
+    text-align: center;
+
+    
+}
+.Top .herofree .herofree_box .left .morehreo a {
+    display: inline-block;
+    height: 69px;
+    font-size: 14px;
+    color: #626a7a;
+    writing-mode: vertical-lr;
+    letter-spacing: 0px;
+    word-break: break-all;
+}
+.Top .herofree .herofree_box .left .morehreo a:hover {
+    color: #6595C2;
+}
+.Top .herofree .herofree_box .right {
+    width: 429px;
+    height: 115px;
+} 
+.Top .herofree .herofree_box .right .portrait {
+    width: 106px;
+    height: 120px;
+    background: url(../images/herolist-images/icon/spr.png) no-repeat -109px -174px;
+    position: relative;
+    left: 11px;
+    top: -6px;
+}
+.Top .herofree .herofree_box .right .portrait .img {
+    width: 76px;
+    height: 75px;
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.Top .herofree .herofree_box .right .portrait .img img {
+    width: 77px;
+    height: 75px;
+}
+.Top .herofree .herofree_box .right .portrait .num {
+    width: 24px;
+    height: 20px;
+    background: url(../images/herolist-images/icon/spr.png) no-repeat -331px -105px;
+    position: absolute;
+    right: 15px;
+    bottom: 19px;
+
+    text-indent: 3px;
+    color: #ffffff;
+}
+.Top .herofree .herofree_box .right .login {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #b3bbc5;
+    margin-left: 20px;
+    margin-top: 44px;
+}
+.Top .herofree .herofree_box .right .login a {
+    font-size: 14px;
+    color: #8EA0B0;
+    margin-left: 14px;
+}
+/* 头部end */
+/* 攻略中心 */
+.Strategy {
+    width: 100%;
+    background:#FAFAFA url(../images/herolist-images/icon/ny_con_bg.jpg) no-repeat center top;
+}
+.Strategy .stra_con {
+    padding-top: 22px;
+}
+.Strategy .stra_con .nav {}
+.Strategy .stra_con .nav p {
+    font-size: 14px;
+    color: #363636;
+}
+.Strategy .stra_con .nav p em {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    background: url(../images/raider-images/icon/icon-bg.png) no-repeat -7px -79px;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+.Strategy .stra_con .nav p a {
+    font-size: 14px;
+    color: #363636;
+    text-decoration: underline;
+}
+.Strategy .stra_con .nav p span {
+    font-size: 16px;
+    color: #363636;
+    margin: 0 15px;
+}
+/* 轮播图 */
+.Strategy .stra_con .solide {
+    width: 100%;
+    height: 362px;
+    background-color: #36363d;
+    margin-top: 20px;
+}
+.Strategy .stra_con .solide .Lsolide {
+    width: 716px;
+    height: 362px;
+
+    overflow: hidden;
+    position: relative;
+}
+.Strategy .stra_con .solide .Lsolide ul {
+    width: 1000%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Strategy .stra_con .solide .Lsolide ul li {
+    width: 10%;
+    height: 318px;
+    float: left;
+}
+.Strategy .stra_con .solide .Lsolide ul li a {}
+.Strategy .stra_con .solide .Lsolide ul li a img {
+    width: 716px;
+    height: 318px;
+}
+.Strategy .stra_con .solide .Lsolide ol {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.Strategy .stra_con .solide .Lsolide ol li {
+    width: 143px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    float: left;
+
+    font-size: 14px;
+    color: #9999cc;
+    cursor: pointer;
+}
+.Strategy .stra_con .solide .Lsolide ol li.con {
+    background-color: #666666;
+    color: #ffcc66;
+}
+.Strategy .stra_con .solide .Rsolide {
+    width: 452px;
+    height: 330px;
+    padding: 12px 16px 20px 16px;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top {
+    border-bottom: 1px solid #202025;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Ltop {}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Ltop li {
+    float: left;
+    width: 60px;
+    height: 36px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 4px;
+    border-bottom: 3px solid #333333;
+    cursor: pointer;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Ltop li a,
+.Strategy .stra_con .solide .Rsolide .Rs_top .Rtop li a {
+    color: #9999cc;
+    font-size: 14px;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Ltop li.con {
+    border-color: #ffcc66;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Ltop li.con a {
+    color: #ffcc66;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Rtop {}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Rtop li {
+    width: 24px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Rtop li a {
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Rtop li.con {
+    background-color: #ffcc66;
+    
+}
+.Strategy .stra_con .solide .Rsolide .Rs_top .Rtop li.con a {
+    color: #333333;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_search {
+    margin-top: 18px;
+    position: relative;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_search .inp {}
+.Strategy .stra_con .solide .Rsolide .Rs_search .inp input {
+    width: 370px;
+    height: 34px;
+    border: 0px;
+    background-color: #4E4E53;
+    border-radius: 2px;
+    text-indent: 36px;
+    color: #abacb7;
+    outline: none;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_search .inp input::placeholder {
+    font-size: 14px;
+    color: #666666;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_search .inp_logo {
+    width: 14px;
+    height: 14px;
+    background: url(../images/raider-images/icon/icon-bg.png) no-repeat -11px -11px;
+
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_search .btn {
+    width: 71px;
+    height: 34px;
+    background-color: #4E4E53;
+    color: #dddddd;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body {
+    margin-top: 14px;
+    width: 452px;
+    height: 224px;
+    overflow: hidden;
+    position: relative;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .scroll {
+    width: 9px;
+    height: 224px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .scroll .bar {
+    width: 9px;
+    height: 75px;
+    background-color: #26262b;
+    border-radius: 3px;
+
+    display: none;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .videoes {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .videoes li {
+    width: 406px;
+    height: 32px;
+    padding-left: 29px;
+    position: relative;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .videoes li .title {
+    width: 331px;
+    height: 32px;
+    overflow: hidden;
+    line-height: 30px;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .videoes li .title a {
+    font-size: 14px;
+    color: #b8b9c5;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .videoes li .title a:hover {
+    text-decoration: underline;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .videoes li .sorts {
+    font-size: 12px;
+    color: #6f7075;
+
+    width: 14px;
+    height: 14px;
+    border: 1px solid #6f7075;
+    border-radius: 1px;
+    text-align: center;
+    line-height: 14px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: 0;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .videoes li .views {
+    font-size: 12px;
+    color: #6f7075;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: 18px;
+    line-height: 32px;
+    text-align: right;
+}
+.Strategy .stra_con .solide .Rsolide .Rs_body .videoes li.con .sorts {
+    color: #F3C258;
+    border-color: #F3C258;
+}
+/* 轮播图end */
+/* 英雄攻略 */
+.Strategy .stra_con .stra_hero {
+    margin-top: 29px;
+}
+.Strategy .stra_con .stra_hero .top_title h1 em {
+    background: url(../images/raider-images/icon/icon-bg.png) no-repeat -8px -114px;
+}
+.Strategy .stra_con .stra_hero .hero_con {
+    position: relative;
+    height: 110px;
+}
+.Strategy .stra_con .stra_hero .hero_con ul {}
+.Strategy .stra_con .stra_hero .hero_con ul li {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-left: -13px;
+   
+}
+.Strategy .stra_con .stra_hero .hero_con ul li.con {
+    background: url(../images/raider-images/icon/hero-subscript.png) no-repeat -1px -1px;
+}
+.Strategy .stra_con .stra_hero .hero_con ul li img {
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+    z-index: 10;
+}
+.Strategy .stra_con .stra_hero .hero_con ul li .nature {
+    width: 20px;
+    height: 35px;
+    background: url(../images/raider-images/icon/hero-subscript.png) no-repeat -98px 0;
+    position: absolute;
+    top: 6px;
+    right: 9px;
+    z-index: 30;
+}
+.Strategy .stra_con .stra_hero .hero_con ul li .inform {
+    width: 300px;
+    height: 27px;
+    line-height: 27px;
+
+    position: absolute;
+    left: 2px;
+    bottom: -27px;
+
+    display: none;
+
+}
+.Strategy .stra_con .stra_hero .hero_con ul li.con .inform {
+    display: block;
+}
+.Strategy .stra_con .stra_hero .hero_con ul li .inform p span {
+    font-size: 14px;
+    color: #999999;
+}
+.Strategy .stra_con .stra_hero .hero_con .more_btn {
+    width: 120px;
+    height: 100px;
+    margin-top: 6px;
+    margin-left: 10px;
+    background: url(../images/raider-images/icon/hero-subscript.png) no-repeat 0 -76px;
+    cursor: pointer;
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list {
+    width: 868px;
+    height: 300px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+
+    position: absolute;
+    top: 62px;
+    right: 0;
+
+    display: none;
+
+    z-index: 1000;
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros {
+    width: 727px;
+    height: 300px;
+    border-right: 1px solid #e5e5e5;
+    padding-left: 23px;
+    text-align: center;
+
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros ol {}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros ol li {
+    font-size: 14px;
+    width: 56px;
+    cursor: pointer;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    margin-right: 16px;
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros ol li a {
+    font-size: 14px;
+    color: #363636;
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros ol li a img {
+    width: 51px;
+    height: 51px;
+    border: 2px solid #ffffff;
+    border-radius: 1px;
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros ol li.con a {
+    text-decoration: underline;
+    
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros ol li.con img {
+    border-color: #F3C258;
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros_sort {
+    width: 117px;
+    height: 300px;
+    background-color: #f5f5f5;
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros_sort ol {}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros_sort ol li {
+    width: 117px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    color: #323235;
+    cursor: pointer;
+}
+.Strategy .stra_con .stra_hero .hero_con .hero_list .heros_sort ol li.con {
+    background-color: #f3c258;
+    color: #ffffff;
+}
+.Strategy .stra_con .stra_hero .hero_TV {}
+.Strategy .stra_con .stra_hero .hero_TV .TV_videos {
+    width: 630px;
+}
+.Strategy .stra_con .UL_TV {
+}
+.Strategy .stra_con .UL_TV li {
+    width: 190px;
+    height: 166px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    float: left;
+}
+.Strategy .stra_con .UL_TV li a {
+    width: 190px;
+    height: 166px;
+}
+.Strategy .stra_con .UL_TV li a .TV_con {
+    width: 190px;
+    height: 166px;
+    
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic {
+    width: 190px;
+    height: 113px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic img {
+    width: 190px;
+    height: 113px;
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic .TV_views {
+    width: 180px;
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 22px;
+    z-index: 10;
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic .TV_views .views {
+    font-size: 12px;
+    color: #ffffff;
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic .TV_views .views em {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../images/icon/index.png) no-repeat -256px -64px;
+    position: relative;
+    top: 2px;
+    left: 0;
+    margin-right: 3px;
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic .TV_views .views span {
+    font-size: 12px;
+    color: #ffffff;
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic .TV_views .time {
+    font-size: 12px;
+    color: #ffffff;
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic .TV_btn {
+    width: 190px;
+    height: 113px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+
+    display: none;
+}
+.Strategy .stra_con .UL_TV li a .TV_con .TV_pic .TV_btn .start {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon/index.png) no-repeat -192px -64px;
+    margin: 36px 75px;
+}
+.Strategy .stra_con .UL_TV li a .TV_con  .TV_tit {
+    font-size: 14px;
+    color: #363636;
+    line-height: 21px;
+    height: 42px;
+
+    overflow: hidden;
+}
+.Strategy .stra_con .stra_hero .hero_TV .TV_list {
+    width: 570px;
+    height: 300px;
+}
+.Strategy .stra_con .stra_hero .hero_TV .TV_list ul {}
+.Strategy .stra_con .stra_hero .hero_TV .TV_list ul li {
+    width: 486px;
+    height: 24px;
+    padding-left: 84px;
+
+    position: relative;
+    margin-bottom: 14px;
+}
+.Strategy .stra_con .stra_hero .hero_TV .TV_list ul li a {
+    display: block;
+    width: 420px;
+    height: 24px;
+    font-size: 14px;
+    color: #363636;
+    line-height: 24px;
+}
+.Strategy .stra_con .stra_hero .hero_TV .TV_list ul li a:hover {
+    text-decoration: underline;
+}
+.Strategy .stra_con .stra_hero .hero_TV .TV_list ul li .category {
+    width: 62px;
+    height: 24px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    line-height: 24px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Strategy .stra_con .stra_hero .hero_TV .TV_list ul li .time {
+    width: 62px;
+    height: 24px;
+    font-size: 12px;
+    color: #999999;
+    text-align: right;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* 英雄攻略end */
+/* 精品栏目 */
+.Strategy .stra_con .boutique {
+    margin-top: 15px;
+}
+.Strategy .stra_con .boutique .top_title h1 em {
+    background: url(../images/raider-images/icon/icon-bg.png) no-repeat -8px -149px;
+}
+.Strategy .stra_con .boutique .boutique_con {}
+.Strategy .stra_con .boutique .boutique_con .tit {
+    width: 186px;
+    height: 358px;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    margin-right: 12px;
+
+    position: relative;
+}
+.Strategy .stra_con .boutique .boutique_con .tit ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Strategy .stra_con .boutique .boutique_con .tit ul li {
+    width: 186px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+.Strategy .stra_con .boutique .boutique_con .tit ul li.con {
+    background-color: #f3c258;
+    color: #ffffff;
+    font-weight: 600;
+}
+.Strategy .stra_con .boutique .boutique_con .tit .scroll {
+    width: 9px;
+    height: 358px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Strategy .stra_con .boutique .boutique_con .tit .scroll .bar {
+    width: 9px;
+    height: 288px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Strategy .stra_con .boutique .boutique_con .TV_body {
+    width: 998px;
+    height: 360px;
+    overflow: hidden;
+}
+.Strategy .stra_con .boutique .boutique_con .TV_body ul {
+    width: 1010px;
+}
+.Strategy .stra_con .boutique .FirstTime {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #666666;
+    background-color: #f5f5f5;
+
+    margin-top: 18px;
+    cursor: pointer;
+}
+.Strategy .stra_con .boutique .FirstTime .p1 {
+    width: 100%;
+    height: 40px;
+}
+.Strategy .stra_con .boutique .FirstTime .p2 {
+    display: none;
+}
+.Strategy .stra_con .boutique .FirstTime .p1 span {
+    color: #f3c258;
+}
+
+.Strategy .stra_con .boutique .FirstTime:hover {
+    background-color: #EDEDED;
+}
+.Strategy .stra_con .boutique .FirstTime:hover .p1 span {
+    text-decoration: underline;
+}
+/* 精品栏目end */
+/* 图文攻略 */
+.Strategy .stra_con .strate {
+    margin-top: 15px;
+    padding-bottom: 28px;
+}
+.Strategy .stra_con .strate .PT_strate {
+    width: 594px;
+}
+.Strategy .stra_con .strate .PT_strate .top_title h1 em {
+    background: url(../images/raider-images/icon/icon-bg.png) no-repeat -7px -186px;
+}
+.Strategy .stra_con .strate .PT_strate .top_nav {
+    height: 35px;
+    background-color: #f5f5f5;
+
+    overflow: hidden;
+}
+.Strategy .stra_con .strate .PT_strate .top_nav ul {}
+.Strategy .stra_con .strate .PT_strate .top_nav ul li {
+    width: 118px;
+    float: left;
+    height: 32px;
+    border-bottom: 3px solid #f5f5f5;
+    text-align: center;
+}
+.Strategy .stra_con .strate .PT_strate .top_nav ul li a {
+    position: relative;
+    top: 6px;
+    left: 0;
+    display: inline-block;
+    width: 117px;
+    height: 20px;
+    font-size: 14px;
+    color: #999999;
+    border-right: 1px solid #e1e1e1;
+}
+.Strategy .stra_con .strate .PT_strate .top_nav ul #top_nav_li {
+    width: 122px;
+}
+.Strategy .stra_con .strate .PT_strate .top_nav ul #top_nav_li a {
+    width: 123px;
+}
+.Strategy .stra_con .strate .PT_strate .top_nav ul li.con {
+    border-color: #f3c258;
+}
+.Strategy .stra_con .strate .PT_strate .top_nav ul li.con a {
+    color: #333333;
+}
+.Strategy .stra_con .strate .PT_strate .TN_content {
+    margin-top: 20px;
+}
+.Strategy .stra_con .strate .PT_strate .TN_content ul {
+    display: none;
+}
+.Strategy .stra_con .strate .PT_strate .TN_content .news {
+    display: block;
+}
+.Strategy .stra_con .strate .PT_strate .TN_content ul li {
+    width: 510px;
+    height: 24px;
+    padding-left: 84px;
+
+    position: relative;
+    margin-bottom: 14px;
+}
+.Strategy .stra_con .strate .PT_strate .TN_content ul li a {
+    display: block;
+    width: 420px;
+    height: 24px;
+    font-size: 14px;
+    color: #363636;
+    line-height: 24px;
+}
+.Strategy .stra_con .strate .PT_strate .TN_content ul li a:hover {
+    text-decoration: underline;
+}
+.Strategy .stra_con .strate .PT_strate .TN_content ul li .category {
+    width: 62px;
+    height: 24px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    line-height: 24px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Strategy .stra_con .strate .PT_strate .TN_content ul li .time {
+    width: 63px;
+    height: 24px;
+    font-size: 12px;
+    color: #999999;
+    text-align: right;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* 图文攻略end */
+/* 技能攻略 */
+.Strategy .stra_con .strate .KI_strate {
+    width: 564px;
+}
+.Strategy .stra_con .strate .KI_strate .top_nav {
+    height: 35px;
+    background-color: #f5f5f5;
+
+    overflow: hidden;
+}
+.Strategy .stra_con .strate .KI_strate .top_nav ul {
+    width: 570px;
+}
+.Strategy .stra_con .strate .KI_strate .top_nav ul li {
+    width: 190px;
+    float: left;
+    height: 32px;
+    border-bottom: 3px solid #f5f5f5;
+    text-align: center;
+}
+.Strategy .stra_con .strate .KI_strate .top_nav ul li a {
+    position: relative;
+    top: 6px;
+    left: 0;
+    display: inline-block;
+    width: 189px;
+    height: 20px;
+    font-size: 14px;
+    color: #999999;
+    border-right: 1px solid #e1e1e1;
+}
+.Strategy .stra_con .strate .KI_strate .top_nav ul #top_nav_li {
+    width: 122px;
+}
+.Strategy .stra_con .strate .KI_strate .top_nav ul #top_nav_li a {
+    width: 123px;
+}
+.Strategy .stra_con .strate .KI_strate .top_nav ul li.con {
+    border-color: #f3c258;
+}
+.Strategy .stra_con .strate .KI_strate .top_nav ul li.con a {
+    color: #333333;
+}
+.Strategy .stra_con .strate .KI_content {
+    padding-top: 20px;
+}
+/* 召唤师技能 */
+.Strategy .stra_con .strate .KI_content .mankill {}
+.Strategy .stra_con .strate .KI_content .mankill .kill_details {}
+.Strategy .stra_con .strate .KI_content .mankill .kill_details ul li {
+    display: none;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_details ul li.con {
+    display: block;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_details ul li .pic {
+    width: 564px;
+    height: 220px;
+    overflow: hidden;
+
+    position: relative;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_details ul li .pic img {
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_details ul li h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #323235;
+    line-height: 25px;
+    margin-top: 8px;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_details ul li h2 {
+    font-size: 14px;
+    color: #666666;
+    line-height: 20px;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_nav {
+    margin-top: 9px;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_nav ul {}
+.Strategy .stra_con .strate .KI_content .mankill .kill_nav ul li {
+    width: 58px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+
+    cursor: pointer;
+
+    float: left;
+    margin-left: -2px;
+    
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_nav ul li img {
+    width: 52px;
+    height: 52px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_nav ul li.con {
+    font-weight: 600;
+    color: #edc040;
+}
+.Strategy .stra_con .strate .KI_content .mankill .kill_nav ul li.con img{
+    border-color: #edc040;
+}
+/* 召唤师技能end */
+/* 局内道具 */
+.Strategy .stra_con .strate .KI_content .manprop {
+    display: none;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul ,
+.Strategy .stra_con .strate .KI_content .manhero ul{
+    width: 110%;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li ,
+.Strategy .stra_con .strate .KI_content .manhero ul li{
+    position: relative;
+    width: 70px;
+    height: 96px;
+    float: left;
+
+    margin-right: 26px;
+    margin-bottom: 37px;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li a ,
+.Strategy .stra_con .strate .KI_content .manhero ul li a {
+    display: block;
+    width: 70px;
+    height: 96px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #363636;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li a img ,
+.Strategy .stra_con .strate .KI_content .manhero ul li a img {
+    width: 66px;
+    height: 66px;
+    border: 2px solid #258df2;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail {
+    width: 197px;
+    background-color: rgba(0,0, 0,0.8);
+    padding: 24px 10px 46px 33px;
+    border: 1px solid #6699ff;
+    z-index: 100;
+
+    position: absolute;
+    top: -50px;
+    left: 50px;
+
+    display: none;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail p {
+    font-size: 13px;
+    color: #3399ff;
+    line-height: 22px;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail .propName {}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail .propName .propPic {
+    width: 74px;
+    height: 74px;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail .propName .propPic img {
+    width: 74px;
+    height: 74px;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail .propName .propPri {
+    margin-left: 20px;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail .propName .propPri h1 {
+    color: #33ff33;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail .propName .propPri h2 {
+    font-size: 12px;
+    color: #cc9933;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+.Strategy .stra_con .strate .KI_content .manprop ul li .propDetail .propEffect {
+    margin-bottom: 10px;
+}
+/* 局内道具end */
+/* 英雄 */
+.Strategy .stra_con .strate .KI_content .manhero {
+   display: none;
+}
+/* 英雄end */
+/* 技能攻略end */
+/* 攻略中心end */

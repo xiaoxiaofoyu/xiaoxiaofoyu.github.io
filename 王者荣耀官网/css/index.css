@@ -1,0 +1,1665 @@
+
+/* 顶部 */
+.Header {
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+}
+.Header .Header_con {
+    height: 40px;
+    
+}
+.Header .Header_con ul {}
+.Header .Header_con ul>li {
+    height: 40px;
+}
+.Header .Header_con ul>li:nth-child(1){
+    width: 330px;
+    background: url(../images/icon/ost-bg.png) no-repeat 110px -40px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    z-index: 20;
+}
+.Header .Header_con ul>li:nth-child(1) a {
+    display: block;
+    width: 205px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+.Header .Header_con ul>li:nth-child(2) {
+    width: 230px;
+    background: url(../images/header/nav/nav-01.jpg) no-repeat center center;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.Header .Header_con ul>li:nth-child(2) .H_pic {
+    position: absolute;
+    top: 0;
+    left: -212px;
+    display: none;
+}
+.Header .Header_con ul>li:nth-child(2):hover .H_pic {
+   display: block;
+   z-index: 10;
+}
+.Header .Header_con ul>li:nth-child(2) .H_pic img {
+    
+}
+.Header .Header_con ul .list {
+    /* width: 106px; */
+    height: 40px;
+    float: right;
+    line-height: 40px;
+    margin-right: 112px;
+    cursor: pointer;
+    position: relative; 
+}
+.Header .Header_con ul .list h3 {
+    font-size: 12px;
+    color: #464646;
+    float: left;
+}
+.Header .Header_con ul .list i {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(../images/icon/ost-bg.png) no-repeat -149px -134px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+/*===> 游戏排行榜 */
+.Header .Header_con ul .list .list_box {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #fff;
+    z-index: 20;
+    border: 1px solid #cccccc;
+    
+    height: 422px;
+    width: 698px;
+    padding: 17px 0;
+    display: none;
+}
+.Header .Header_con ul .list .list_box .new {
+    width: 231px;
+    height: 422px;
+    border-right: 1px solid #e2e2e2;
+}
+.Header .Header_con ul .list .list_box .new h2 {
+    height: 18px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 12px;
+    color: #555555;
+    line-height: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 9px;
+}
+.Header .Header_con ul .list .list_box .new h2 a {
+    font-size: 12px;
+    color: #707e91;
+    float: right;
+    
+}
+.Header .Header_con ul .list .list_box .new h2 a:hover {
+    color:#FF5D16;
+}
+.Header .Header_con ul .list .list_box .new p {
+    height: 38px;
+    line-height: 38px;
+    margin-left: 10px;
+}
+.Header .Header_con ul .list .list_box .new p b {
+    font-size: 12px;
+    color: #999999;
+    margin-right: 10px;
+}
+.Header .Header_con ul .list .list_box .new ol {
+    margin-left: 14px;
+    margin-right: 19px;
+}
+.Header .Header_con ul .list .list_box .new ol h2 {
+    border: 0;
+    height: 18px;
+    padding-bottom: 0;
+    margin: 14px 0;
+}
+.Header .Header_con ul .list .list_box .new ol li {
+    font-size: 12px;
+    color: #707e91;
+    line-height: 14px;
+    height: 14px;
+    margin-bottom: 13px;
+}
+.Header .Header_con ul .list .list_box .new ol li span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border: 1px solid #999999;
+    color: #999999;
+    font-size: 4px;
+    line-height: 12px;
+    text-align: center;
+    margin-right: 15px;
+    float: left;
+    z-index: 20;
+    position: relative;
+    
+}
+.Header .Header_con ul .list .list_box .new ol li span.num {
+    background-color: #ff4e00;
+    border: 1px solid #ff4e00;
+    color: #fff;
+}
+.Header .Header_con ul .list .list_box .new ol li .games {
+    width: 194px;
+    height: 82px;
+    border: 1px solid #cccccc;
+    padding: 1px;
+    position: relative;
+    top: -14px;
+    left: 0;
+    background: #fff;
+    display: none;
+}
+.Header .Header_con ul .list .list_box .new ol li.con .games {
+    display: block;
+}
+.Header .Header_con ul .list .list_box .new ol li.con {
+    height: 86px;
+    margin-bottom: 11px;
+}
+.Header .Header_con ul .list .list_box .new ol li .games img {
+    width: 194px;
+    height: 82px;
+}
+/* goin */
+.Header .Header_con ul .list .list_box .new ol li .games .goin,
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 {
+    width: 194px;
+    height: 28px;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    line-height: 28px;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin em {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(../images/header/list/ost_rank_sp.png) no-repeat 0 0;
+    position: relative;
+    margin-right: 5px;
+    top: 2px;
+    left: 0;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin .e2 {
+    background-position: -14px 0;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin a {
+    font-size: 12px;
+    color: #aaaaaa;
+    margin:0 14px;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin a:hover {
+   color: #FF4E00;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin a:hover em {
+    background-position: 0 -17px;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin a:hover .e2 {
+    background-position: -14px -17px;
+}
+/* goin end */
+/* goin-2 */
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 a {
+    display: block;
+    width: 63px;
+    height: 28px;
+    float: left;
+    border-right: 1px solid #707070;
+    text-align: center;
+    line-height: 28px;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 a em {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    left: 0;
+    background: url(../images/header/list/ost_rank_sp.png) no-repeat -27px 0;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 a.a2 em{
+    background-position: -43px 0;
+} 
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 a.a3 {
+    width: 66px;
+    border: 0;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 a.a3 em {
+    background-position: -59px 0;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 a:hover em {
+    background-position: -27px -16px;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 a.a2:hover em {
+    background-position: -43px -16px;
+}
+.Header .Header_con ul .list .list_box .new ol li .games .goin-2 a.a3:hover em {
+    background-position: -59px -16px;
+}
+/* goin-2 end */
+/*===> 游戏排行榜end */
+.Header .Header_con ul .list h3:hover {
+    color: #FF4E00;
+}
+.Header .Header_con ul .list h3:hover+i {
+    background-position: -169px -134px;
+}
+.Header .Header_con ul>li:nth-child(4) {
+   float: right;
+   height: 40px;
+   line-height: 40px;
+   margin-right: 27px;
+   padding-left: 20px;
+   background: url(../images/icon/logo.png) no-repeat left center;
+  
+}
+
+.Header .Header_con ul>li:nth-child(4) a {
+    text-decoration: none; 
+    font-size: 12px;
+    color: #464646;
+    float: left;
+}
+.Header .Header_con ul>li:nth-child(4) a:hover {
+    color: #FF4E00;
+}
+
+/* 顶部end */
+/* 导航条 */
+.Nav {
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+.Nav .Nav_con {
+    height: 83px;
+    position: relative;
+}
+.Nav .Nav_con .logo {
+    width: 230px;
+    height: 83px;
+    background: url(../images/header/nav/logo.png) no-repeat left center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Nav .Nav_con ul {
+    margin-left: 230px;
+}
+.Nav .Nav_con ul li {
+    padding:19px 19px 4px 19px;
+    text-align: center;
+    float: left;
+}
+.Nav .Nav_con ul li a {
+    
+}
+.Nav .Nav_con ul li a h1 {
+    font-size: 18px;
+    color: #c9c9dd;
+    line-height: 33px;
+}
+.Nav .Nav_con ul li a h2 {
+    font-size: 12px;
+    color: #858792;
+    line-height: 24px;
+}
+.Nav .Nav_con ul li:hover {
+    background-color: rgba(243, 194, 88, 0.1);
+    border-bottom: 3px solid #f3c258;
+}
+.Nav .Nav_con ul li:hover h1 {
+    color: #f3c258;
+}
+.Nav .Nav_con ul li:hover h2 {
+    color: #91763f;
+}
+.Nav .Nav_con .login {
+    width: 180px;
+    height: 83px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Nav .Nav_con .login .logo-01 {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 1px solid #d8ac50;
+    background: url(../images/header/nav/logo-01.png) no-repeat center center;
+    margin-top: 21px;
+    margin-right: 6px;
+}
+.Nav .Nav_con .login .logo-01 a {
+    display: block;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+.Nav .Nav_con .login .test {
+    margin-top: 22px;
+}
+.Nav .Nav_con .login .test a {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 23px;
+
+}
+.Nav .Nav_con .login .test h2 {
+    font-size: 14px;
+    color: #858792;
+    line-height: 20px;
+}
+.Nav .Nav_tab {
+    position: absolute;
+    top: 83px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background:  rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    height: 0px;
+    z-index: 10;
+}
+.Nav .Nav_tab .Nav_tab_box {
+    padding-bottom: 58px;
+    padding-top: 17px;
+}
+.Nav .Nav_tab .Nav_tab_box ul {
+    margin-left: 230px;
+}
+.Nav .Nav_tab .Nav_tab_box ul li {
+    width: 110px;
+    height: 210px;
+    text-align: center;
+    float: left;
+}
+.Nav .Nav_tab .Nav_tab_box ul li a i {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../images/icon/index.png) no-repeat -141px -70px;
+    margin-right: 2px;
+    position: relative;
+    top: 4px;
+    left: 0;
+}
+.Nav .Nav_tab .Nav_tab_box ul li a i.con-1 {
+   background-position: -141px -7px;
+}
+.Nav .Nav_tab .Nav_tab_box ul li a i.con-2 {
+    background-position: -141px -39px;
+}
+.Nav .Nav_tab .Nav_tab_box ul li a i.con-3 {
+    background-position: -165px -70px;
+}
+.Nav .Nav_tab .Nav_tab_box ul li a {
+    line-height: 30px;
+    font-size: 14px;
+    color: #c9c9dd;
+}
+.Nav .Nav_tab .Nav_tab_box ul li a:hover {
+    color: #F3C258;
+    text-decoration: underline;
+}
+/* 登录弹出框 */
+.welcome {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    background: rgba(0, 0, 0, 0.7);
+
+    display: none;
+}
+.welcome .wel_login {
+    width: 530px;
+    height: 254px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    z-index: 1000;
+}
+.welcome .wel_login .wel_login_box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.welcome .wel_login .wel_login_box img {
+    width: 530px;
+    height: 254px;
+}
+.welcome .wel_login .wel_login_box .del {
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    cursor: pointer;
+    opacity: 0;
+}
+.welcome .wel_login .wel_login_box .wechat,
+.welcome .wel_login .wel_login_box .QQ {
+    width: 198px;
+    height: 46px;
+    background-color: pink;
+    position: absolute;
+    bottom: 65px;
+    border-radius: 23px;
+    
+    cursor: pointer;
+    opacity: 0;
+}
+.welcome .wel_login .wel_login_box .wechat {
+    left: 60px;
+}
+.welcome .wel_login .wel_login_box .QQ {
+    right: 60px;
+}
+/* 微信登录 */
+.welcome .wel_login .wel_login_box .wechat-login {
+    width: 340px;
+    height: 434px;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    padding-top: 26px;
+    display: none;
+}
+.welcome .wel_login .wel_login_box .wechat-login .wechat-login-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.welcome .wel_login .wel_login_box .wechat-login .wechat-login-box h1 {
+    font-size: 20px;
+    color: #373737;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.welcome .wel_login .wel_login_box .wechat-login .wechat-login-box .code-pic {
+    width: 100%;
+    height: 282px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.welcome .wel_login .wel_login_box .wechat-login .wechat-login-box .code-pic img {
+    width: 280px;
+    height: 280px;
+    border: 1px solid #e2e2e2;
+}
+.welcome .wel_login .wel_login_box .wechat-login .wechat-login-box h2,
+.welcome .wel_login .wel_login_box .wechat-login .wechat-login-box h3 {
+    width: 100%;
+    height: 20px;
+    font-size: 13px;
+    color: #373737;
+    text-align: center;
+    line-height: 20px;
+}
+.welcome .wel_login .wel_login_box .wechat-login .wechat-login-box .wechat_del {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: #666666;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: -26px;
+    right: 0;
+    cursor: pointer;
+}
+.welcome .wel_login .wel_login_box .wechat-login .wechat-login-box .wechat_del:hover {
+    color: #000000;
+}
+/* 微信登录end */
+/* QQ登录 */
+.welcome .wel_login .wel_login_box .QQ-login {
+    width: 618px;
+    height: 364px;
+    border: 2px solid #e2e2e2;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: none;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box {
+    width: 100%;
+    height: 345px;
+    padding-top: 19px;
+    position: relative;
+
+    display: bloc;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .QQ_del {
+    width: 48px;
+    height: 20px;
+    background: url(../images/icon/icon_3_tiny.png) no-repeat -220px -126px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .QQ_del:hover {
+    background-position: -220px -150px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box h1 {
+    width: 100%;
+    font-size: 20px;
+    color: #474747;
+    text-align: center;
+    line-height: 55px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box h2 {
+    width: 100%;
+    font-size: 16px;
+    color: #474747;
+    text-align: center;
+    line-height: 21px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box h2 a {
+    font-size: 16px;
+    color: #3481CF;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box h2 a:hover {
+    text-decoration: underline;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .QQ-code-box {
+    width: 100%;
+    height: 198px;
+    position: absolute;
+    top: 118px;
+    left: 0;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .QQ-code-box .QQ-code {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #d3d3d3;
+    margin-left: 246px;
+    margin-top: 34px; 
+    margin-right: 10px;
+    float: left;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .QQ-code-box .QQ-code img {
+    width: 130px;
+    height: 130px;
+   
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .QQ-code-box .tips {
+    width: 160px;
+    height: 198px;
+    background-color: #98E0AD;
+    float: left;
+
+    display: none;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .QQ-code-box .tips img {
+    width: 160px;
+    height: 198px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .number-login {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .number-login ul {}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .number-login ul li {
+    float: left;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .number-login ul li a {
+    font-size: 12px;
+    color: #666666;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .number-login ul li a:hover {
+    text-decoration: underline;
+}
+.welcome .wel_login .wel_login_box .QQ-login .QQ-login-box .number-login ul li span {
+    font-size: 12px;
+    color: #cbcbcb;
+    font-size: 10px;
+    margin: 0 8px;
+}
+/* 账号密码登录 */
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box {
+    display: none;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps {
+    text-align: center;
+    padding-top: 34px;
+    position: relative;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps .inp_tips {
+    width: 266px;
+    font-size: 12px;
+    color: #ff3b30;
+    height: 18px;
+    line-height: 18px;
+    text-align: left;
+    position: absolute;
+    top: 8px;
+    left: 176px;
+
+    display: none;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps .inp_tips em {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/icon/icon_3_tiny.png) no-repeat 0 -162px;
+    float: left;
+    margin-right: 3px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps .inpv_del {
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    position: absolute;
+    top: 45px;
+    right: 190px;
+
+    background: url(../images/icon/icon_3_tiny.png) no-repeat -116px -160px;
+    cursor: pointer;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps .inpv_del:hover {
+    background-position: -139px -160px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps .first {
+    display: none;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps .second {
+    top: 99px;
+
+    display: none;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps input {
+    width: 266px;
+    height: 38px;
+    border: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    outline: none;
+
+    margin-bottom: 14px;
+    border-radius: 4px;
+    text-indent: 10px;
+    color: #4C4C4C;
+    font-size: 16px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps input.con {
+    border-color: #a0d1ff;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps input::placeholder {
+    color: #dddddd;
+    font-size: 16px;
+}
+.welcome .wel_login .wel_login_box .QQ-login .number-login-box .inps .login_btn {
+    width: 268px;
+    text-indent: 0;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #86ce2f;
+    border-color: #86ce2f;
+
+}
+/* 账号密码登录end */
+/* QQ登录end */
+/* 登录弹出框end */
+/* 导航条end  */
+/* 头部 */
+.Top {
+    position: relative;
+    height: 960px;
+}
+.Top .BIG_pic {
+    width: 100%;
+    height: 1100px;
+    position: absolute;
+    top: -83px;
+    left: 0;
+    z-index: -100;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+/* 轮播图栏 */
+/* 轮播图 */
+.Top .solide {
+    height: 342px;
+    background-color: #292929;;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 455px;
+}
+.Top .solide .solider {}
+.Top .solide .solider .solider_pic {
+    width: 604px;
+    height: 298px;
+    overflow: hidden;
+    position: relative;
+}
+.Top .solide .solider .solider_pic ul {
+    width: 1000%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Top .solide .solider .solider_pic ul li {
+    width: 604px;
+    height: 298px;
+    float: left;
+}
+.Top .solide .solider .solider_pic ul li a {}
+.Top .solide .solider .solider_pic ul li a img {
+    width: 604px;
+    height: 298px;
+}
+.Top .solide .solider .solider_btn {
+    width: 604px;
+    height: 44px;
+    overflow: hidden;
+}
+.Top .solide .solider .solider_btn ol {
+    width: 605px;
+}
+.Top .solide .solider .solider_btn ol li {
+    width: 121px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    color: #b1b2be;
+    background-color: #35353e;
+    float: left;
+    cursor: pointer;
+}
+.Top .solide .solider .solider_btn ol li.con {
+    background-color: #53535a;
+    color: #f3c258;
+}
+/* 轮播图end */
+/* 热门新闻栏 */
+.Top .solide .news {
+    width: 324px;
+    height: 332px;
+    /* width: 357px;
+    height: 342px; */
+    border-left: 1px solid #383840;
+    background-color: #24242d;
+    margin: 0 1px;
+    padding: 1px 18px 9px 15px;
+}
+.Top .solide .news .news_tit {
+    width: 324px;
+    height: 48px;
+}
+.Top .solide .news .news_tit ul {
+    border-bottom: 1px solid #000000;
+}
+.Top .solide .news .news_tit ul li {
+    width: 52px;
+    height: 44px;
+    border-bottom: 3px solid #23232c;
+    line-height: 44px;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    color: #b8b9c5;
+    cursor: pointer;
+}
+.Top .solide .news .news_tit ul li a {
+    display: block;
+    width: 52px;
+    height: 44px;
+    font-size: 14px;
+    color: #b8b9c5;
+}
+.Top .solide .news .news_tit ul li.con {
+    border-bottom: 3px solid #f3c258;
+    color: #f3c258;
+}
+.Top .solide .news .news_con {
+    margin-top: 18px;
+    width: 324px;
+    height: 332px;
+    overflow: hidden;
+    position: relative;
+
+}
+.Top .solide .news .news_con .news_box {
+    width: 1000%;
+    height: 332px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Top .solide .news .news_con .news_box ul {
+    float: left;
+}
+.Top .solide .news .news_con .news_box ul li {
+    width: 270px;
+    height: 32px;
+    line-height: 32px;
+    padding-right: 54px;
+    position: relative;  
+}
+
+.Top .solide .news .news_con .news_box ul li a {
+    display: inline-block;
+    font-size: 14px;
+    width: 270px;
+    color: #b8b9c5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    text-indent: 10px;
+}
+.Top .solide .news .news_con .news_box ul li a:hover {
+   text-decoration: underline;
+}
+.Top .solide .news .news_con .news_box ul li em {
+    display: block;
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-style: normal;
+}
+.Top .solide .news .news_con .news_box ul li.top_news {
+    height: 36px;
+    line-height: 36px;
+    background-color: #414046;
+    text-align: center;
+    margin-bottom: 6px;
+    
+}
+.Top .solide .news .news_con .news_box ul li.top_news a {
+    font-size: 18px;
+    color: #f3c258;
+}
+/* 热门新闻栏end */
+/* 下载游戏栏 */
+.Top .solide .download {
+    width: 235px;
+    height: 342px;
+}
+.Top .solide .download a {
+    display: block;
+}
+.Top .solide .download .load {
+    width: 235px;
+    height: 128px;
+    background: url(../images/icon/index.png) no-repeat 0 -218px;
+}
+.Top .solide .download .protect {
+    width: 235px;
+    height: 107px;
+    background: url(../images/icon/index.png) no-repeat 0 -349px;
+
+}
+.Top .solide .download .exper {
+    width: 235px;
+    height: 107px;
+    background: url(../images/icon/index.png) no-repeat 0 -460px;
+}
+/* 下载游戏栏 */
+/* 轮播图栏end */
+/* 活动区块栏 */
+.Top .area {
+    height: 134px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 825px;
+    overflow: hidden;
+}
+.Top .area .area_con {
+    width: 110%;
+}
+.Top .area .area_con a {
+    display: block;
+    width: 291px;
+    height: 134px;
+    float: left;
+    margin-right: 12px;
+    overflow: hidden;
+}
+.Top .area .area_con a img {}
+.Top .area .area_con a:hover img {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+/* 活动区块栏end */
+/* 头部end */
+/* 内容中心 */
+.Content {
+    padding-top: 18px;
+}
+.Content .Content_con {}
+.tit {
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+}
+.tit h1 {
+    font-size: 22px;
+    color: #323235;
+    font-weight: 600;
+}
+.tit h1 em {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 0;
+    top: 5px;
+    margin-right: 9px;
+    background: url(../images/icon/index.png) no-repeat 1px -106px;
+}
+.tit h2 {
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+}
+.tit h2 em {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: aqua;
+    position: relative;
+    left: 0;
+    top: 2px;
+    margin-right: 9px;
+    background: url(../images/icon/index.png) no-repeat -251px 0px;
+}
+.tit h2:hover{
+    color: #F5C29E;
+}
+.top {
+    width: 100%;
+    height: 32px;
+    background-color: #f5f5f5;
+}
+.top ul {}
+.top ul li {
+    width: 289px;
+    height: 29px;
+    text-align: center;
+    line-height: 29px;
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    cursor: pointer;
+    border-bottom: 3px solid #f5f5f5;
+}
+.top ul li.con {
+    border-color: #f3c258;
+}
+.top ul .split {
+    display: block;
+    width: 1px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    background-color: #e1e1e1;
+}
+.Content .Content_con .con_left {
+    width: 872px;
+}
+.Content .Content_con .con_left .body {}
+.Content .Content_con .con_left .body .body_box {
+    display: none;
+}
+.Content .Content_con .con_left .body .body_con_top {
+    width: 872px;
+    height: 26px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+}
+.Content .Content_con .con_left .body .body_con_top ul {}
+.Content .Content_con .con_left .body .body_con_top ul li {
+   float: left;
+   padding: 0 14px;
+   border: 1px solid #e8e8e8;
+   background-color: #f5f5f5;
+   font-size: 14px;
+   color: #343434;
+   border-radius: 8px;
+   margin-right: 8px;
+   cursor: pointer;
+   overflow: hidden;
+}
+.Content .Content_con .con_left .body .body_con_top ul li.con {
+    border-color: #f3c259;
+    background-color: #f3c259;
+    color: #ffffff;
+}
+.con_left .body .body_con_con {
+    width: 872px;
+}
+.con_left .body .body_con_con ul {
+    width: 884px;
+    display: none;
+}
+.con_left .body .body_con_con ul li {
+    width: 209px;
+    height: 175px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    float: left;
+}
+.con_left .body .body_con_con ul li a {
+    width: 209px;
+    height: 175px;
+}
+.con_left .body .body_con_con ul li a .TV_con {
+    width: 209px;
+    height: 175px;
+    
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic {
+    width: 209px;
+    height: 127px;
+    position: relative;
+    margin-bottom: 9px;
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic img {
+    width: 209px;
+    height: 127px;
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic .TV_views {
+    width: 189px;
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 22px;
+    z-index: 10;
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic .TV_views .views {
+    font-size: 12px;
+    color: #ffffff;
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic .TV_views .views em {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../images/icon/index.png) no-repeat -256px -64px;
+    position: relative;
+    top: 2px;
+    left: 0;
+    margin-right: 3px;
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic .TV_views .views span {
+    font-size: 12px;
+    color: #ffffff;
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic .TV_views .time {
+    font-size: 12px;
+    color: #ffffff;
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic .TV_btn {
+    width: 209px;
+    height: 127px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+    display: none;
+}
+.con_left .body .body_con_con ul li a .TV_con .TV_pic .TV_btn .start {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon/index.png) no-repeat -192px -64px;
+    margin: 40px 84px;
+}
+.con_left .body .body_con_con ul li a .TV_con  .TV_tit {
+    font-size: 14px;
+    color: #6f6f6f;
+    line-height: 20px;
+}
+/* 英雄攻略 */
+.Content .Content_con .con_left .body .hero .body_con_top .chhero {
+    height: 26px;
+    padding: 0 15px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #323235;
+    cursor: pointer;
+}
+.Content .Content_con .con_left .body .hero .body_con_top .chhero em {
+    display: inline-block;
+    width: 11px;
+    height: 8px;
+    background: url(../images/icon/index.png) no-repeat -255px -27px;
+    margin-left: 10px;
+}
+.Content .Content_con .con_left .body .hero {
+    display: none;
+}
+.Content .Content_con .con_left .body .hero .body_con_con ul {
+    display: block;
+}
+.Content .Content_con .con_left .body .hero .body_con_top {
+    position: relative;
+    width: 120px;
+}
+
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    z-index: 20;
+    background-color: #ffffff;
+    width: 837px;
+    height: 337px;
+    border: 1px solid #e5e5e5;
+    display: none;
+}
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list .hero_tit {
+    width: 78px;
+    height: 337px;
+    background-color: #f5f5f5;
+}
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list .hero_tit ol{}
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list .hero_tit ol li {
+    width: 78px;
+    height: 42px;
+    font-size: 14px;
+    color: #323235;
+    line-height: 42px;
+    text-align: center;
+}
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list .hero_tit ol li.con {
+    background-color: #f3c258;
+    color: #ffffff;
+}
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list .hero_con {
+    width: 759px;
+    height: 337px;
+}
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list .hero_con ol {
+    padding-left: 9px;
+    width: 688px;
+    height: 337px;
+    display: none;
+}
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list .hero_con ol li {
+    width: 60px;
+    height: 86px;
+    font-size: 12px;
+    color: #363636;
+    text-align: center;
+    margin: 0 13px;
+    margin: 12px 13px 15px 13px;
+    float: left;
+    cursor: pointer;
+}
+.Content .Content_con .con_left .body .hero .body_con_top .hero_list .hero_con ol li img {
+    width: 60px;
+    height: 60px;
+}
+/* 英雄攻略 end */
+.Content .Content_con .con_right {
+    width: 295px;
+}
+.Content .Content_con .con_right .tit h1 em {
+    background-position: 0 -144px;
+}
+.Content .Content_con .con_right .top ul li {
+    width: 97px;
+}
+.Content .Content_con .con_right .body {
+    width: 295px;
+    height: 426px;
+    overflow: hidden;
+    position: relative;
+}
+.Content .Content_con .con_right .body .body_box_box {
+    width: 1000%;
+    height: 426px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Content .Content_con .con_right .body .body_box {
+    width: 295px;
+    height: 426px;
+    float: left;
+}
+.Content .Content_con .con_right .body .body_top {
+    width: 295px;
+    height: 224px;
+    margin-top: 19px;
+}
+.Content .Content_con .con_right .body .body_top img {
+    width: 295px;
+    height: 156px;
+    float: left;
+}
+.Content .Content_con .con_right .body .body_top .name {
+    height: 67px;
+    width: 278px;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    float: left;
+    padding-left: 15px;
+}
+.Content .Content_con .con_right .body .body_top .name h1 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.Content .Content_con .con_right .body .body_top .name h2 {
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+}
+.Content .Content_con .con_right .body .body_btm {
+    width: 295px;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    margin-top: 10px;
+}
+.Content .Content_con .con_right .body .weekfree {
+    margin-top: 19px;
+}
+.Content .Content_con .con_right .body .body_btm ul {
+    width: 310px;
+}
+.Content .Content_con .con_right .body .body_btm ul li {
+    float: left;
+    width: 68px;
+    height: 173px;
+    margin-right: 7px;
+}
+.Content .Content_con .con_right .body .body_btm ul li a {
+    display: block;
+    position: relative;
+    width: 68px;
+    height: 173px;
+}
+.Content .Content_con .con_right .body .body_btm ul li a img {
+    width: 68px;
+    height: 173px;
+}
+.Content .Content_con .con_right .body .body_btm ul li a .heroname {
+    width: 68px;
+    height: 173px;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    color: #F2C158;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center; 
+    display: none;
+    
+}
+.Content .Content_con .con_right .body .body_btm ul li a .heroname p {
+    display: inline-block;
+    width: 14px;
+    height: 173px;
+    
+    writing-mode: vertical-lr;
+    letter-spacing: 0.3em;
+    word-break: break-all;
+}
+.Content .Content_con .con_right .body .body_btm ul li a:hover .heroname{
+   display: block;
+}
+/* 内容中心end */
+/* 赛事中心 */
+.Match {
+    width: 100%;
+}
+.Match .Match_con {}
+.Match .Match_con .con_left {
+    width: 872px;
+}
+.Match .Match_con .con_left .tit {}
+.Match .Match_con .con_left .tit h1 {}
+.Match .Match_con .con_left .tit h1 em {
+    background-position: 0 -182px;
+}
+.Match .Match_con .con_left .top {}
+.Match .Match_con .con_left .top ul {}
+.Match .Match_con .con_left .top ul li {
+    width: 123px;
+}
+.Match .Match_con .con_left .body {
+    width: 872px;
+}
+.Match .Match_con .con_left .body .body_top {
+    padding-top: 19px;
+}
+.Match .Match_con .con_left .body .body_top .pic {
+    width: 211px;
+    height: 260px;
+}
+.Match .Match_con .con_left .body .body_top .pic img {
+    width: 211px;
+    height: 260px;
+}
+.Match .Match_con .con_left .body .body_top .list {}
+.Match .Match_con .con_left .body .body_top .list .list_tit {}
+.Match .Match_con .con_left .body .body_top .list .list_tit a {
+    font-size: 24px;
+    color:  #333333;
+    line-height: 33px;
+}
+.Match .Match_con .con_left .body .body_top .list .list_tit a:hover {
+    text-decoration: underline;
+}
+.Match .Match_con .con_left .body .body_top .list .list_tit h5 {
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+}
+.Match .Match_con .con_left .body .body_top .list ul {
+    margin-top: 7px;
+}
+.Match .Match_con .con_left .body .body_top .list ul li {
+    height: 31px;
+    width: 494px;
+    padding-left: 64px;
+    padding-right: 81px;
+    position: relative;
+}
+.Match .Match_con .con_left .body .body_top .list ul li b {
+    display: block;
+    width: 52px;
+    height: 23px;
+    border-radius: 8px;
+    color: #a3a3a3;
+    background-color: #e3e3e3;
+    font-size: 12px;
+    text-align: center;
+    line-height: 23px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.Match .Match_con .con_left .body .body_top .list ul li a {
+    display: inline-block;
+    width: 470px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #333333;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Match .Match_con .con_left .body .body_top .list ul li a:hover {
+    text-decoration: underline;
+}
+.Match .Match_con .con_left .body .body_top .list ul li span {
+    display: block;
+    width: 40px;
+    height: 31px;
+    line-height: 31px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+    font-size: 12px;
+    color: #b8b9c5;
+}
+.Match .Match_con .con_left .body .body_con_con ul {
+    display: block;
+}
+.Match .Match_con .con_left .body .body_con_con ul li {
+    margin-top: 15px;
+    margin-right: 12px;
+}
+.Match .Match_con .con_right {
+    width: 295px;
+}
+.Match .Match_con .con_right .tit h1 em {
+    background-position: -156px -106px;
+}
+.Match .Match_con .con_right .tit .tick {
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #f3c258;
+    padding: 3px 9px;
+    border-radius: 3px;
+    margin-right: 18px;
+    margin-top: 14px;
+}
+.Match .Match_con .con_right .tit .tick em {
+    width: 18px;
+    background-position: -252px -88px;
+    margin-right: 5px;
+}
+.Match .Match_con .con_right .top ul li.time {
+    width: 82px;
+    margin-right: 12px;
+}
+.Match .Match_con .con_right .top ul li.team1 {
+    width: 60px;
+}
+.Match .Match_con .con_right .top ul li.team2 {
+    width: 86px;
+    float: right;
+}
+.Match .Match_con .con_right .infor {
+    width: 295px;
+    height: 67px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.Match .Match_con .con_right .infor .infor_times {
+    width: 82px;
+    height: 67px;
+    line-height: 67px;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    margin-right: 12px;
+}
+.Match .Match_con .con_right .infor .infor_team {
+    width: 60px;
+    height: 67px;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+}
+.Match .Match_con .con_right .infor .infor_team img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.Match .Match_con .con_right .infor .infor_team p {
+    width: 100%;
+}
+.Match .Match_con .con_right .infor .team1 {
+    width: 70px;
+}
+.Match .Match_con .con_right .infor .infor_VS {
+    width: 52px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+    font-size: 12px;
+    color: #f6c758;
+}
+.Match .Match_con .con_right .infor_pic {
+    width: 295px;
+    height: 156px;
+    margin-top: 21px;
+}
+.Match .Match_con .con_right .infor_pic img {
+    width: 295px;
+    height: 156px;
+}
+/* 赛事中心end */
+/* 底部 */
+.Footer {
+    width: 100%;
+    height: 362px;
+    background: url(../images/icon/bg_footer.jpg) no-repeat center center;
+
+}
+.Footer .Footer_con {
+    padding-top: 80px;
+}
+.Footer .Footer_con .con_top {
+    width: 100%;
+    height: 76px;
+    border-bottom: 2px solid #d4d4d4;
+}
+.Footer .Footer_con .con_top .tencent_logo {
+    width: 355px;
+    height: 60px;
+    background: url(../images/icon/spr.png) no-repeat 0 0;
+   
+}
+.Footer .Footer_con .con_con {}
+.Footer .Footer_con .con_con .left {
+    width: 510px;
+}
+.Footer .Footer_con .con_con .left h1 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 20px;
+    margin-top: 12px;
+}
+.Footer .Footer_con .con_con .left ul {}
+.Footer .Footer_con .con_con .left ul li {
+    font-size: 12px;
+    color: #6d6d6d;
+    float: left;
+    margin-right: 12px;
+    line-height: 20px;
+}
+.Footer .Footer_con .con_con .left p {
+    font-size: 12px;
+    color: #6d6d6d; 
+    line-height: 20px;
+    margin-top: 6px;
+}
+.Footer .Footer_con .con_con .right {
+    width: 650px;
+}
+.Footer .Footer_con .con_con .right ul {
+    height: 20px;
+    margin-top: 32px;
+}
+.Footer .Footer_con .con_con .right ul li {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+.Footer .Footer_con .con_con .right ul li a {
+    font-size: 12px;
+    color: #6d6d6d;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+.Footer .Footer_con .con_con .right ul span {
+    float: left;
+    font-size: 12px;
+    color: #6d6d6d;
+    margin: 0 2px;
+}
+.Footer .Footer_con .con_con .right .p1 {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.Footer .Footer_con .con_con .right .p1 i {
+    float: left;
+    font-size: 12px;
+    color: #6d6d6d;
+}
+.Footer .Footer_con .con_con .right .p1 a {
+    float: right;
+    font-size: 12px;
+    color: #6d6d6d;
+}
+.Footer .Footer_con .con_con .right .p2 {
+    font-size: 12px;
+    color: #6d6d6d;
+    height: 20px;
+    line-height: 20px;
+} 
+.Footer .Footer_con .con_con .right .p2 a {
+    font-size: 12px;
+    color: #6d6d6d;
+}
+.Footer .Footer_con .con_con .right .p2 a b {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 3px;
+    left: 0;
+    background: url(../images/icon/icplogo.png) no-repeat left center;
+    
+}
+.Footer .Footer_con .con_con .right .p2 span {
+    font-size: 12px;
+    color: #6d6d6d;
+    margin: 0 2px;
+}
+/* 底部end */ 

@@ -1,0 +1,481 @@
+/* 头部 */
+.Top .herofree {
+    width: 100%;
+    height: 115px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.Top .herofree .herofree_box {
+    height: 115px;
+    background-color: pink;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: url(../images/herolist-images/icon/bg_header.png) no-repeat 0 0;
+}
+.Top .herofree .herofree_box .left {
+    width: 751px;
+    height: 106px;
+    padding-left: 20px;
+    padding-top: 9px;
+
+    position: relative;
+}
+.Top .herofree .herofree_box .left .time {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    color: #a6afbc;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+.Top .herofree .herofree_box .left ul {
+    width: 708px;
+    height: 69px;
+}
+.Top .herofree .herofree_box .left ul li {
+    width: 69px;
+    height: 69px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.Top .herofree .herofree_box .left ul li a {
+    display: block;
+    height: 69px;
+    border-radius: 4px;
+    
+}
+.Top .herofree .herofree_box .left ul li .img01 {
+    width: 69px;
+    height: 69px;
+}
+.Top .herofree .herofree_box .left ul li .img02 {
+    width: 222px;
+    height: 69px;
+
+    display: none;
+}
+.Top .herofree .herofree_box .left ul li.con {
+    width: 222px;
+}
+.Top .herofree .herofree_box .left ul li.con a {
+    width: 222px;
+}
+.Top .herofree .herofree_box .left ul li.con a img {
+    width: 222px;
+}
+.Top .herofree .herofree_box .left ul li.con a .img01 {
+    display: none;
+}
+.Top .herofree .herofree_box .left ul li.con a .img02 {
+    display: block;
+}
+.Top .herofree .herofree_box .left .morehreo {
+    width: 23px;
+    height: 69px;
+    position: absolute;
+    top: 37px;
+    right: 24px;
+    
+    text-align: center;
+
+    
+}
+.Top .herofree .herofree_box .left .morehreo a {
+    display: inline-block;
+    height: 69px;
+    font-size: 14px;
+    color: #626a7a;
+    writing-mode: vertical-lr;
+    letter-spacing: 0px;
+    word-break: break-all;
+}
+.Top .herofree .herofree_box .left .morehreo a:hover {
+    color: #6595C2;
+}
+.Top .herofree .herofree_box .right {
+    width: 429px;
+    height: 115px;
+} 
+.Top .herofree .herofree_box .right .portrait {
+    width: 106px;
+    height: 120px;
+    background: url(../images/herolist-images/icon/spr.png) no-repeat -109px -174px;
+    position: relative;
+    left: 11px;
+    top: -6px;
+}
+.Top .herofree .herofree_box .right .portrait .img {
+    width: 76px;
+    height: 75px;
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.Top .herofree .herofree_box .right .portrait .img img {
+    width: 77px;
+    height: 75px;
+}
+.Top .herofree .herofree_box .right .portrait .num {
+    width: 24px;
+    height: 20px;
+    background: url(../images/herolist-images/icon/spr.png) no-repeat -331px -105px;
+    position: absolute;
+    right: 15px;
+    bottom: 19px;
+
+    text-indent: 3px;
+    color: #ffffff;
+}
+.Top .herofree .herofree_box .right .login {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #b3bbc5;
+    margin-left: 20px;
+    margin-top: 44px;
+}
+.Top .herofree .herofree_box .right .login a {
+    font-size: 14px;
+    color: #8EA0B0;
+    margin-left: 14px;
+}
+/* 头部end */
+/* 英雄介绍 */
+.Introduce {
+    width: 100%;
+    background:#FAFAFA url(../images/herolist-images/icon/ny_con_bg.jpg) no-repeat center top;
+}
+.Introduce .content {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.Introduce .content .nav {}
+.Introduce .content .nav p {
+    font-size: 16px;
+    color: #363636;
+}
+.Introduce .content .nav p em {
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin-right: 8px;
+    background: url(../images/herolist-images/icon/sprite.png) no-repeat 0 -5px;
+}
+.Introduce .content .nav p a {
+    font-size: 16px;
+    color: #363636;
+    text-decoration: underline;
+}
+.Introduce .content .nav p span {
+    font-size: 16px;
+    color: #363636;
+    margin: 0 15px;
+}
+.Introduce .content .heroint {
+    font-size: 20px;
+    color: #323235;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 31px;
+}
+.Introduce .content .heroint em {
+    display: inline-block;
+    width: 17px;
+    height: 22px;
+    background: url(../images/herolist-images/icon/icon_hero.png) no-repeat center center;
+    margin-right: 8px;
+    position: relative;
+    left: 0;
+    top: 3px;
+}
+.Introduce .content .herolist {
+    width: 100%;
+}
+.Introduce .content .herolist .herolist_nav {
+    width: 100%;
+}
+.Introduce .content .herolist .herolist_nav ul {
+    width: 100%;
+}
+.Introduce .content .herolist .herolist_nav ul li {
+    width: 33.3333%;
+    height: 32px;
+    border-bottom: 3px solid #d4d4d4;
+    float: left;
+    text-align: center;
+    
+}
+.Introduce .content .herolist .herolist_nav ul li a {
+    display: block;
+    width: 100%;
+    height: 32px;
+    font-size: 16px;
+    color: #4b4b4b;
+}
+.Introduce .content .herolist .herolist_nav ul li.con {
+    border-color: #3589dd;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.Introduce .content .herolist .herolist_nav ul li.con a {
+    color: #3589dd;
+    font-weight: 600;
+}
+/* 英雄 */
+.Introduce .content .herolist .herolist_con {
+    padding: 35px 28px 68px 28px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+
+    display: block;
+}
+.Introduce .content .herolist .herolist_con .top {
+    width: 1140px;
+    height: 106px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #efefef;
+}
+.Introduce .content .herolist .herolist_con .top .syn {
+    width: 1140px;
+    height: 53px;
+}
+.Introduce .content .herolist .herolist_con .top .tit {
+    width: 80px;
+    height: 53px;
+    background-color: #2c88e2;
+    font-size: 16px;
+    color: #ffffff;
+
+    line-height: 53px;
+    text-align: center;
+}
+.Introduce .content .herolist .herolist_con .top .sort {
+    height: 53px;
+}
+.Introduce .content .herolist .herolist_con .top .sort ul {
+    padding-top: 16px;
+}
+.Introduce .content .herolist .herolist_con .top .sort ul li {
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 15px;
+    float: left;
+
+    cursor: pointer;
+}
+.Introduce .content .herolist .herolist_con .top .sort ul li span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #b4b4b4;
+    float: left;
+    border-radius: 50%;
+    margin-right: 6px;
+    padding: 3px;
+    background-color: #efefef;
+    background-clip: content-box;
+}
+.Introduce .content .herolist .herolist_con .top .sort ul li span.con {
+    background-color: #2c88e2;
+}
+.Introduce .content .herolist .herolist_con .top .sort ul li label {
+    float: left;
+    font-size: 14px;
+    color: #686869;
+
+    cursor: pointer;
+}
+.Introduce .content .herolist .herolist_con .top .search {
+    margin-right: 32px;
+    width: 242px;
+    height: 44px;
+    position: relative;
+}
+.Introduce .content .herolist .herolist_con .top .search input {
+    width: 240px;
+    height: 42px;
+    outline: none;
+    border: 1px solid #d2d2d2;
+    background-color: #efefef;
+
+    text-indent: 10px;
+    font-size: 14px;
+}
+.Introduce .content .herolist .herolist_con .top .search .btn {
+    width: 42px;
+    height: 22px;
+    border-left: 1px solid #d5d5d5;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background: url(../images/herolist-images/icon/vl_search_icon.png) no-repeat center center;
+    cursor: pointer;
+}
+.Introduce .content .herolist .herolist_con .body {
+    width: 1140px;
+    padding-top: 7px;
+
+    /* overflow: hidden; */
+}
+.Introduce .content .herolist .herolist_con .body ul {
+    width: 1170px;
+}
+.Introduce .content .herolist .herolist_con .body ul li,
+.Introduce .content .herolist .summoner_con .skills ul li {
+    width: 87px;
+    height: 109px;
+    margin-top: 33px;
+    margin-right: 30px;
+    float: left;
+}
+.Introduce .content .herolist .herolist_con .body ul li a ,
+.Introduce .content .herolist .summoner_con .skills ul li a{
+    display: block;
+    width: 87px;
+    height: 109px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #363636;
+}
+.Introduce .content .herolist .herolist_con .body ul li a img ,
+.Introduce .content .herolist .summoner_con .skills ul li a img{
+    width: 83px;
+    height: 83px;
+    border: 2px solid #258df2;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* 英雄end */
+/* 局内道具 */
+.Introduce .content .herolist .prop_con {
+    display: none;
+}
+.Introduce .content .herolist .prop_con .top ,
+.Introduce .content .herolist .prop_con .top .syn .search input {
+    background-color: rgba(0,0,0,0);
+}
+.Introduce .content .herolist .prop_con .top .syn .search {
+    margin-right: 0;
+}
+.Introduce .content .herolist .prop_con .top .syn .sort ul li.bj {
+    width: 110px;
+}
+/* 道具详细信息 */
+.Introduce .content .herolist .prop_con .body ul li {
+    position: relative;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail {
+    width: 197px;
+    background-color: rgba(0,0, 0,0.8);
+    padding: 24px 10px 46px 33px;
+    border: 1px solid #6699ff;
+    z-index: 100;
+
+    position: absolute;
+    top: -50px;
+    left: 50px;
+
+    display: none;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail p {
+    font-size: 13px;
+    color: #3399ff;
+    line-height: 22px;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propName {}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propName .propPic {
+    width: 74px;
+    height: 74px;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propName .propPic img {
+    width: 74px;
+    height: 74px;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propName .propPri {
+    margin-left: 20px;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propName .propPri h1 {
+    color: #33ff33;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propName .propPri h2 {
+    font-size: 12px;
+    color: #cc9933;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propName .propPri h1 span {}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propEffect {
+    margin-bottom: 10px;
+}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propEffect p {}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propPassive {}
+.Introduce .content .herolist .prop_con .body ul li .propDetail .propPassive p {}
+/* 道具详细信息end */
+/* 局内道具end */
+/* 召唤师技能 */
+.Introduce .content .herolist .summoner_con {
+    padding: 32px 28px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+
+    display: none;
+}
+.Introduce .content .herolist .summoner_con .skills {
+    width: 492px;
+    border-right: 1px solid #f0f0f0;
+}
+.Introduce .content .herolist .summoner_con .skills ul {
+    padding-left: 14px;
+}
+.Introduce .content .herolist .summoner_con .sdetails {
+    width: 609px;
+    padding-top: 33px;
+    padding-left: 40px;
+}
+.Introduce .content .herolist .summoner_con .sdetails ul {}
+.Introduce .content .herolist .summoner_con .sdetails ul li {
+    display: none;
+}
+.Introduce .content .herolist .summoner_con .sdetails ul li.con {
+    display: block;
+}
+.Introduce .content .herolist .summoner_con .sdetails ul li img {
+    width: 564px;
+    height: 337px;
+}
+.Introduce .content .herolist .summoner_con .sdetails ul li h1 {
+    font-size: 16px;
+    color: #00a383;
+    line-height: 30px;
+    font-weight: 600;
+}
+.Introduce .content .herolist .summoner_con .sdetails ul li h2 {
+    font-size: 14px;
+    color: #9a9a9a;
+    line-height: 30px;
+}
+.Introduce .content .herolist .summoner_con .sdetails ul li p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 58px;
+}
+
+/* 召唤师技能end */
+/* 英雄介绍end */
